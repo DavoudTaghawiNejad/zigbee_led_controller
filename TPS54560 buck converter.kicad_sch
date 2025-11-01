@@ -309,27 +309,24 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Device:D_Schottky_Dual_CommonCathode_AAK_Parallel"
 			(pin_names
-				(offset 1.016)
+				(offset 0.762)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
+			(property "Value" "D_Schottky_Dual_CommonCathode_AAK_Parallel"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -337,7 +334,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 1.27 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -346,6 +343,15 @@
 				)
 			)
 			(property "Datasheet" "~"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Schottky diode, common cathode on pin 3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -354,7 +360,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Schottky diode"
+			(property "ki_keywords" "diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -363,28 +369,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
+			(symbol "D_Schottky_Dual_CommonCathode_AAK_Parallel_0_1"
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+						(xy -2.54 3.81) (xy 0 2.54) (xy -2.54 1.27) (xy -2.54 3.81) (xy -2.54 3.81) (xy -2.54 3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -396,7 +384,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy -2.54 -1.27) (xy 0 -2.54) (xy -2.54 -3.81) (xy -2.54 -1.27) (xy -2.54 -1.27) (xy -2.54 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -408,7 +396,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -2.54 -2.54) (xy 1.27 -2.54) (xy 1.27 2.54) (xy -2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -418,12 +406,57 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "D_Schottky_1_1"
+				(polyline
+					(pts
+						(xy 0.508 3.556) (xy 0.508 3.81) (xy 0 3.81) (xy 0 1.27) (xy -0.508 1.27) (xy -0.508 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.524) (xy 0.508 -1.27) (xy 0 -1.27) (xy 0 -3.81) (xy -0.508 -3.81) (xy -0.508 -3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(pin passive line
-					(at -3.81 0 0)
+					(at -5.08 2.54 0)
 					(length 2.54)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -439,7 +472,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at -5.08 -2.54 0)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -449,6 +482,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1487,6 +1538,12 @@
 		(uuid "55d64d9f-b920-44fd-8d1a-d33763254af1")
 	)
 	(junction
+		(at 128.27 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58266d41-8262-4d2c-8e89-47a594561037")
+	)
+	(junction
 		(at 59.69 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1505,10 +1562,10 @@
 		(uuid "8335660f-3f10-4fdd-9c2d-350108056eeb")
 	)
 	(junction
-		(at 130.81 91.44)
+		(at 133.35 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8c08f620-8a6f-4668-8044-f2a98e009ffa")
+		(uuid "8aac1dba-682a-4c74-a23c-c8dfbd82be4f")
 	)
 	(junction
 		(at 162.56 91.44)
@@ -1772,6 +1829,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 88.9) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f64733e-1b2c-4725-8d42-8fddda4cb43a")
+	)
+	(wire
+		(pts
 			(xy 87.63 102.87) (xy 87.63 101.6)
 		)
 		(stroke
@@ -1982,16 +2049,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 91.44) (xy 124.46 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b7c6fcd-4494-4bd7-8a1d-f5a999236abf")
-	)
-	(wire
-		(pts
 			(xy 130.81 72.39) (xy 124.46 72.39)
 		)
 		(stroke
@@ -2022,7 +2079,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 91.44) (xy 130.81 91.44)
+			(xy 144.78 91.44) (xy 133.35 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2059,6 +2116,16 @@
 			(type default)
 		)
 		(uuid "878a5696-02cc-46fa-a732-96650e32d470")
+	)
+	(wire
+		(pts
+			(xy 128.27 91.44) (xy 124.46 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b91fa9f-7051-4c08-b66c-71cb50588cc0")
 	)
 	(wire
 		(pts
@@ -2222,6 +2289,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 88.9) (xy 128.27 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b06ad84a-5925-4d7a-b598-2033a96c92f4")
+	)
+	(wire
+		(pts
 			(xy 39.37 95.25) (xy 39.37 91.44)
 		)
 		(stroke
@@ -2322,16 +2399,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 86.36) (xy 130.81 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7e19b5e-6905-4588-a942-d51147477e81")
-	)
-	(wire
-		(pts
 			(xy 71.12 91.44) (xy 82.55 91.44)
 		)
 		(stroke
@@ -2339,6 +2406,16 @@
 			(type default)
 		)
 		(uuid "cac4e678-ed8c-402b-8ca2-c42500ed8cb4")
+	)
+	(wire
+		(pts
+			(xy 128.27 91.44) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d04d8dc5-e5e1-4cd2-9658-1c4abe024e89")
 	)
 	(wire
 		(pts
@@ -2719,76 +2796,6 @@
 			(project "TPS54560 buck converter"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 130.81 82.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e8cd1c3-f9c0-4479-bcc9-88ed68ba20c1")
-		(property "Reference" "D1"
-			(at 133.35 80.9624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B530C 13 F"
-			(at 133.35 83.5024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMC_Handsoldering"
-			(at 130.81 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 130.81 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c71335d9-1ff2-4b50-bf78-573549207320")
-		)
-		(pin "2"
-			(uuid "cf177cf0-e180-4d81-9d12-bfd7b813b43a")
-		)
-		(instances
-			(project ""
-				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4474,6 +4481,79 @@
 			(project "TPS54560 buck converter"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Dual_CommonCathode_AAK_Parallel")
+		(at 130.81 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf584716-7a72-45b8-b2b3-1ffe671e30de")
+		(property "Reference" "D1"
+			(at 135.89 82.6134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Schottky_MBR20100CT"
+			(at 135.89 85.1534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 130.81 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, common cathode on pin 3"
+			(at 130.81 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "26eb0d0a-4244-4046-a873-1d3ebc7ff5d5")
+		)
+		(pin "1"
+			(uuid "737264a7-459e-454a-b178-62ef58436ad9")
+		)
+		(pin "2"
+			(uuid "94271be9-2192-45fa-9217-3b3fd957e6a5")
+		)
+		(instances
+			(project "TPS54560 buck converter"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "D1")
 					(unit 1)
 				)
 			)
