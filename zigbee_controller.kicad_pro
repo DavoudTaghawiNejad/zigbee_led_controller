@@ -658,6 +658,24 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ali",
+          "name": "ali",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "in_stock",
+          "name": "in_stock",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -716,7 +734,7 @@
         "uuid": "17b9f9ac-224d-422f-9c40-54a6770d01d0"
       }
     ],
-    "used_designators": "C16,J3-5,J13-14,#PWR27,#PWR33-34",
+    "used_designators": "R15-17,J3,#PWR12,#PWR27-28,Q4-7",
     "variants": []
   },
   "sheets": [
