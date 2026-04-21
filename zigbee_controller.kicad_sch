@@ -7069,6 +7069,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 50.8) (xy 21.59 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "910ff9a4-1464-4341-99f2-99f5d817bce7")
+	)
+	(wire
+		(pts
 			(xy 260.35 82.55) (xy 264.16 82.55)
 		)
 		(stroke
@@ -7666,16 +7676,6 @@
 			(type default)
 		)
 		(uuid "d04d8dc5-e5e1-4cd2-9658-1c4abe024e89")
-	)
-	(wire
-		(pts
-			(xy 21.59 50.8) (xy 21.59 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2f558b5-0b22-4c43-a52c-ce145a626703")
 	)
 	(wire
 		(pts
@@ -12007,7 +12007,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 121.92 193.04 0)
+		(at 121.92 195.58 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12015,10 +12016,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5d8e40b5-2eaa-438f-9973-f936d7ded2db")
 		(property "Reference" "J10"
-			(at 124.46 193.0399 0)
+			(at 124.46 195.5801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12029,7 +12029,7 @@
 			)
 		)
 		(property "Value" "IO23 load"
-			(at 124.46 195.5799 0)
+			(at 124.46 193.0401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12040,7 +12040,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:MKDS 1,5 2-5,08 P2"
-			(at 121.92 193.04 0)
+			(at 121.92 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12051,7 +12051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 193.04 0)
+			(at 121.92 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12062,7 +12062,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 121.92 193.04 0)
+			(at 121.92 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12166,8 +12166,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 16.51 50.8 0)
-		(mirror y)
+		(at 16.51 53.34 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12177,7 +12176,7 @@
 		(dnp no)
 		(uuid "616f3177-b9b0-44bb-a30f-a246a3a9ad18")
 		(property "Reference" "J1"
-			(at 13.208 48.26 0)
+			(at 13.208 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12187,7 +12186,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 13.208 45.72 0)
+			(at 13.208 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12197,7 +12196,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:MKDS 1,5 2-5,08 P2"
-			(at 16.51 50.8 0)
+			(at 16.51 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12208,7 +12207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 16.51 50.8 0)
+			(at 16.51 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12219,7 +12218,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 16.51 50.8 0)
+			(at 16.51 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12599,7 +12598,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 223.52 149.86 0)
+		(at 223.52 152.4 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12607,10 +12607,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6fbfb09d-3d76-43b9-82a6-57cf265d6767")
 		(property "Reference" "J11"
-			(at 226.06 149.8599 0)
+			(at 226.06 152.4001 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12621,7 +12620,7 @@
 			)
 		)
 		(property "Value" "IO20 load"
-			(at 226.06 152.3999 0)
+			(at 226.06 149.8601 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12632,7 +12631,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:MKDS 1,5 2-5,08 P2"
-			(at 223.52 149.86 0)
+			(at 223.52 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12643,7 +12642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 149.86 0)
+			(at 223.52 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12654,7 +12653,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 223.52 149.86 0)
+			(at 223.52 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13429,7 +13428,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 149.86 193.04 0)
+		(at 149.86 195.58 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13437,10 +13437,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "80e5604a-029d-46c1-9258-f4639fe14041")
 		(property "Reference" "J12"
-			(at 152.4 193.0399 0)
+			(at 152.4 195.5801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13451,7 +13450,7 @@
 			)
 		)
 		(property "Value" "IO22 load"
-			(at 152.4 195.5799 0)
+			(at 152.4 193.0401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13462,7 +13461,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:MKDS 1,5 2-5,08 P2"
-			(at 149.86 193.04 0)
+			(at 149.86 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13473,7 +13472,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 193.04 0)
+			(at 149.86 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13484,7 +13483,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 149.86 193.04 0)
+			(at 149.86 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15892,7 +15891,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 251.46 149.86 0)
+		(at 251.46 152.4 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15900,10 +15900,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "db9718dc-6f1f-4bc4-b0cd-9008b2ebf381")
 		(property "Reference" "J13"
-			(at 254 149.8599 0)
+			(at 254 152.4001 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15914,7 +15913,7 @@
 			)
 		)
 		(property "Value" "IO21 load"
-			(at 254 152.3999 0)
+			(at 254 149.8601 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15925,7 +15924,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:MKDS 1,5 2-5,08 P2"
-			(at 251.46 149.86 0)
+			(at 251.46 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15936,7 +15935,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 149.86 0)
+			(at 251.46 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15947,7 +15946,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 251.46 149.86 0)
+			(at 251.46 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

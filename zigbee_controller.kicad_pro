@@ -118,7 +118,7 @@
           ""
         ],
         [
-          "silk_over_copper|188479832|128450000|f0d17c1a-56ba-4b43-95a8-667b603aa7b7|bd015957-d5d8-4591-a94b-39892514cc72",
+          "silk_over_copper|187479832|128450000|f0d17c1a-56ba-4b43-95a8-667b603aa7b7|bd015957-d5d8-4591-a94b-39892514cc72",
           ""
         ],
         [
@@ -150,27 +150,7 @@
           ""
         ],
         [
-          "starved_thermal|161500000|85600000|dccafb62-fb06-4545-b21a-dd6d01d80494|9d51eba9-5810-4394-aec1-7afd2e574ba5|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|196606013|78317981|dccafb62-fb06-4545-b21a-dd6d01d80494|503e7257-acfc-4340-b72d-82e17cd628be|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|196606013|78317981|dccafb62-fb06-4545-b21a-dd6d01d80494|58d59372-fe8f-4307-9ac6-0498365de361|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|196606013|84717981|dccafb62-fb06-4545-b21a-dd6d01d80494|266266e4-6c1f-4a24-9ded-22fac3761ce3|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|196606013|84717981|dccafb62-fb06-4545-b21a-dd6d01d80494|45630d8d-26de-40c9-854c-ea186210fb57|F.Cu",
-          ""
-        ],
-        [
-          "unconnected_items|196606013|79117981|F.Cu|4|48d43e76-4a9e-477a-be8b-a9bb33cf8e6f|fbb48f57-5905-4c0b-9be5-d7753be2d83b",
+          "unconnected_items|196606013|79117981|F.Cu|4|2e3b564b-f01b-4ecb-a6ed-e5cac5744a71|d9c918dc-f1a0-4721-a868-264b3988d36f",
           ""
         ]
       ],
@@ -312,6 +292,7 @@
         0.6,
         1.0,
         1.5,
+        2.7,
         3.0
       ],
       "tuning_pattern_settings": {
