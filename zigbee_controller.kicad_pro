@@ -817,9 +817,21 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "in_stock",
+          "name": "in_stock",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
           "show": true
         },
         {
@@ -832,12 +844,6 @@
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
           "show": true
         },
         {
@@ -866,12 +872,6 @@
         },
         {
           "group_by": false,
-          "label": "in_stock",
-          "name": "in_stock",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "ali",
           "name": "ALI",
           "show": false
@@ -882,7 +882,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "in_stock"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,

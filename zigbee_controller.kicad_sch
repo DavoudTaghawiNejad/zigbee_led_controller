@@ -6280,7 +6280,7 @@
 		(uuid "99ece92e-74f0-49ed-aaf5-9a19c6528497")
 	)
 	(junction
-		(at 256.54 46.99)
+		(at 270.51 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1368e76-1742-4a92-8e25-c6330ffcbf33")
@@ -6979,7 +6979,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 46.99) (xy 256.54 46.99)
+			(xy 266.7 39.37) (xy 270.51 39.37)
 		)
 		(stroke
 			(width 0)
@@ -7839,7 +7839,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 49.53) (xy 256.54 46.99)
+			(xy 270.51 41.91) (xy 270.51 39.37)
 		)
 		(stroke
 			(width 0)
@@ -9675,7 +9675,7 @@
 				)
 			)
 		)
-		(property "in_stock" "ordered"
+		(property "in_stock" "yes"
 			(at 33.02 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -9813,7 +9813,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "IO14"
+		(property "Value" "Conn_01x02"
 			(at 56.642 184.404 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9848,6 +9848,17 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 53.34 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "yes"
+			(at 53.34 184.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9928,6 +9939,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 121.92 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" ""
 			(at 121.92 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10165,6 +10187,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 144.78 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "yes"
 			(at 144.78 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -10567,6 +10600,17 @@
 				)
 			)
 		)
+		(property "in_stock" "yes"
+			(at 162.56 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "09a01d4c-3925-4f5c-b904-9844da4235ec")
 		)
@@ -10740,7 +10784,7 @@
 				)
 			)
 		)
-		(property "in_stock" "yes"
+		(property "in_stock" "no"
 			(at 245.11 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -10826,6 +10870,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 207.01 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "yes"
 			(at 207.01 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -11162,6 +11217,17 @@
 				)
 			)
 		)
+		(property "in_stock" "-"
+			(at 270.51 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b1a9a034-28f7-4be8-a0b7-94e46483c153")
 		)
@@ -11336,6 +11402,17 @@
 				)
 			)
 		)
+		(property "in_stock" "7"
+			(at 214.63 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2dd03baa-18d7-40e8-9e7a-07bddf8f6b13")
 		)
@@ -11421,6 +11498,17 @@
 				)
 			)
 		)
+		(property "in_stock" "yes"
+			(at 78.74 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f84e5bec-b9ea-412b-b8af-7fae6dcbb482")
 		)
@@ -11492,6 +11580,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 132.08 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" ""
 			(at 132.08 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11975,6 +12074,17 @@
 				)
 			)
 		)
+		(property "in_stock" "yes"
+			(at 238.76 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "51ccc5fd-aaa3-47c6-8550-cfa745f3905b")
 		)
@@ -12065,6 +12175,17 @@
 				)
 			)
 		)
+		(property "in_stock" "yes"
+			(at 72.39 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "97f01ff9-4605-45b8-86a3-818e74b61d93")
 		)
@@ -12144,18 +12265,7 @@
 				)
 			)
 		)
-		(property "in_stock" "yes"
-			(at 24.13 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ali" "https://pt.aliexpress.com/item/1005010413616439.html?spm=a2g0o.productlist.main.18.1790XBQ3XBQ3Lh&algo_pvid=50852c30-1fc9-48ab-bf94-46dc77772359&algo_exp_id=50852c30-1fc9-48ab-bf94-46dc77772359-17&pdp_ext_f=%7B%22order%22%3A%226%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21BRL%2111.85%216.99%21%21%212.21%211.30%21%402101d97817765498370052019e8ff5%2112000052328642936%21sea%21BR%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3Aa4e9d9bc%3Bm03_new_user%3A-29895%3BpisId%3A5000000204887149&curPageLogUid=UMw24MF591Sa&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005010413616439%7C_p_origin_prod%3A"
+		(property "in_stock" "no"
 			(at 24.13 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -12325,6 +12435,17 @@
 				)
 			)
 		)
+		(property "in_stock" "no"
+			(at 261.62 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e143228a-6e98-4652-aa3d-d5a366ecae15")
 		)
@@ -12400,6 +12521,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 269.24 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" ""
 			(at 269.24 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12674,6 +12806,17 @@
 				)
 			)
 		)
+		(property "in_stock" "-"
+			(at 260.35 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
@@ -12763,7 +12906,7 @@
 				)
 			)
 		)
-		(property "in_stock" "yes"
+		(property "in_stock" "no"
 			(at 133.35 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -12858,6 +13001,17 @@
 				)
 			)
 		)
+		(property "in_stock" "yes"
+			(at 105.41 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "91d86cfc-9aa3-4514-9639-1bca6f9fdc2d")
 		)
@@ -12930,6 +13084,17 @@
 		)
 		(property "Description" "RF Module, ESP32-C6 SoC, Wi-Fi 802.11b/g/n/ax, Bluetooth, BLE, Zigbee, Thread, 32-bit, 3.3V, SMD, onboard antenna"
 			(at 66.04 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "no"
+			(at 66.04 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13252,6 +13417,17 @@
 				)
 			)
 		)
+		(property "in_stock" "no"
+			(at 167.64 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "B1"
 			(uuid "8e15e715-5a96-4526-ba76-c397c15c728d")
 		)
@@ -13379,7 +13555,7 @@
 				)
 			)
 		)
-		(property "in_stock" "ordered"
+		(property "in_stock" "yes"
 			(at 133.35 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -13471,6 +13647,17 @@
 				)
 			)
 		)
+		(property "in_stock" "no"
+			(at 104.14 190.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2e5ea914-1c25-4209-8664-6172f317e1f5")
 		)
@@ -13512,7 +13699,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IO23 load"
+		(property "Value" "Terminal MKDS"
 			(at 124.46 193.0401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13546,6 +13733,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 121.92 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "no"
 			(at 121.92 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -13669,7 +13867,7 @@
 				)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "Terminal MKDS"
 			(at 13.208 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13702,6 +13900,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 16.51 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "no"
 			(at 16.51 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13750,7 +13959,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "16k8"
+		(property "Value" "???"
 			(at 124.46 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13784,6 +13993,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 121.92 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" ""
 			(at 121.92 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13865,6 +14085,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 72.39 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "yes"
 			(at 72.39 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -13970,7 +14201,7 @@
 				)
 			)
 		)
-		(property "in_stock" "yes"
+		(property "in_stock" "no"
 			(at 88.9 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -14022,7 +14253,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IO20 load"
+		(property "Value" "Terminal MKDS"
 			(at 238.76 149.8601 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14056,6 +14287,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 236.22 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "no"
 			(at 236.22 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -14293,6 +14535,17 @@
 		)
 		(property "Description" "1.5A Dual High-Speed Power MOSFET Drivers, 4.5..18V supply, TTL/CMOS compatible inputs, non-inverting drivers, SOIC-8"
 			(at 221.234 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "no"
+			(at 232.41 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14557,6 +14810,17 @@
 				)
 			)
 		)
+		(property "in_stock" "no"
+			(at 222.25 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "89841abd-0836-4645-a903-50df725c8364")
 		)
@@ -14632,6 +14896,17 @@
 		)
 		(property "Description" "Dual Schottky diode, common anode on pin 1"
 			(at 149.86 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "no"
+			(at 149.86 190.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14893,7 +15168,7 @@
 				)
 			)
 		)
-		(property "in_stock" "ordered"
+		(property "in_stock" "yes"
 			(at 245.11 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -15020,7 +15295,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IO22 load"
+		(property "Value" "Terminal MKDS"
 			(at 168.91 193.0401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15054,6 +15329,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 166.37 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "no"
 			(at 166.37 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -15110,7 +15396,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 148.59 104.902 90)
 			(hide yes)
 			(show_name no)
@@ -15134,6 +15420,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 148.59 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "no"
+			(at 148.59 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15301,6 +15598,17 @@
 				)
 			)
 		)
+		(property "in_stock" "yes"
+			(at 153.67 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "54129074-5643-4dd2-9a68-c02aac9dee90")
 		)
@@ -15347,7 +15655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 148.59 102.362 90)
 			(hide yes)
 			(show_name no)
@@ -15371,6 +15679,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 148.59 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "no"
+			(at 148.59 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15451,6 +15770,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 40.64 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "yes"
 			(at 40.64 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -15543,7 +15873,7 @@
 				)
 			)
 		)
-		(property "in_stock" "ordered"
+		(property "in_stock" "yes"
 			(at 88.9 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -15703,6 +16033,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "yes"
 			(at 62.23 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -15883,7 +16224,7 @@
 				)
 			)
 		)
-		(property "in_stock" "yes"
+		(property "in_stock" "no"
 			(at 33.02 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -16131,6 +16472,17 @@
 				)
 			)
 		)
+		(property "in_stock" "yes"
+			(at 50.8 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bb9d15c8-b0ea-4201-b2bb-296c8ef300c9")
 		)
@@ -16368,6 +16720,17 @@
 			)
 		)
 		(property "ALI" "https://pt.aliexpress.com/item/1005007254030376.html?spm=a2g0o.productlist.main.8.18d64an84an8NG&algo_pvid=63a61315-a6b1-462a-9664-1cc09ba9c9ee&aem_p4p_detail=202604211447301858219910874370000274182&algo_exp_id=63a61315-a6b1-462a-9664-1cc09ba9c9ee-7&pdp_ext_f=%7B%22order%22%3A%22344%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21BRL%2120.52%2120.52%21%21%2126.04%2126.04%21%40210328c017768080498948779e2bee%2112000039958467827%21sea%21BR%21715047753%21X%211%210%21n_tag%3A-29919%3Bd%3Aa4e9d9bc%3Bm03_new_user%3A-29895&curPageLogUid=OCu73UCZnwux&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007254030376%7C_p_origin_prod%3A&search_p4p_id=202604211447301858219910874370000274182_2"
+			(at 128.27 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "no"
 			(at 128.27 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -16641,7 +17004,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 49.53 0)
+		(at 270.51 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16652,7 +17015,7 @@
 		(fields_autoplaced yes)
 		(uuid "b94787cd-6626-4a84-91fe-83d4d302e81a")
 		(property "Reference" "#PWR017"
-			(at 256.54 55.88 0)
+			(at 270.51 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16663,7 +17026,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 50.7999 0)
+			(at 273.05 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16674,7 +17037,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 49.53 0)
+			(at 270.51 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16685,7 +17048,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 49.53 0)
+			(at 270.51 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16696,7 +17059,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 49.53 0)
+			(at 270.51 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16785,6 +17148,17 @@
 				)
 			)
 		)
+		(property "in_stock" "-"
+			(at 264.16 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
@@ -16851,6 +17225,17 @@
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
 			(at 133.35 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "no"
+			(at 133.35 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16941,6 +17326,17 @@
 				)
 			)
 		)
+		(property "in_stock" "-"
+			(at 39.37 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "df60f17d-b62d-4a5f-959e-9e9479cb2a26")
 		)
@@ -17009,6 +17405,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 73.66 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "yes"
 			(at 73.66 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -17192,7 +17599,7 @@
 				)
 			)
 		)
-		(property "in_stock" "yes"
+		(property "in_stock" "no"
 			(at 207.01 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -17288,7 +17695,7 @@
 				)
 			)
 		)
-		(property "in_stock" "ordered"
+		(property "in_stock" "yes"
 			(at 34.29 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -17459,6 +17866,17 @@
 				)
 			)
 		)
+		(property "in_stock" "5 (20100)"
+			(at 121.92 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "26eb0d0a-4244-4046-a873-1d3ebc7ff5d5")
 		)
@@ -17534,6 +17952,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 185.42 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "yes"
 			(at 185.42 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -17625,6 +18054,17 @@
 				)
 			)
 		)
+		(property "in_stock" "no"
+			(at 124.46 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "df9c1012-2bde-4949-af85-f2e1e4bc02cd")
 		)
@@ -17642,18 +18082,17 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 252.73 46.99 0)
+		(at 266.7 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d4fdbb4f-f18a-4abf-a374-8b75183b79f0")
 		(property "Reference" "TP4"
-			(at 255.27 42.4179 0)
+			(at 261.112 34.798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17664,7 +18103,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.27 44.9579 0)
+			(at 261.112 37.338 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17675,7 +18114,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 257.81 46.99 0)
+			(at 271.78 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17686,7 +18125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 46.99 0)
+			(at 271.78 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17697,7 +18136,18 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 252.73 46.99 0)
+			(at 266.7 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "-"
+			(at 266.7 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17785,6 +18235,17 @@
 				)
 			)
 		)
+		(property "in_stock" "yes"
+			(at 185.42 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "67805038-a4d2-4864-9683-03c6f9aee97a")
 		)
@@ -17823,7 +18284,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IO21 load"
+		(property "Value" "Terminal MKDS"
 			(at 278.13 149.8601 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17857,6 +18318,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 275.59 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "no"
 			(at 275.59 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -17939,6 +18411,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 92.71 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "yes"
 			(at 92.71 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -18097,6 +18580,17 @@
 		)
 		(property "Description" "1.5A Dual High-Speed Power MOSFET Drivers, 4.5..18V supply, TTL/CMOS compatible inputs, non-inverting drivers, SOIC-8"
 			(at 109.474 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "no"
+			(at 120.65 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18375,7 +18869,7 @@
 				)
 			)
 		)
-		(property "in_stock" "yes"
+		(property "in_stock" "no"
 			(at 34.29 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -18471,6 +18965,17 @@
 				)
 			)
 		)
+		(property "in_stock" "yes"
+			(at 78.74 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c5f7240b-5967-4283-899f-9687fc78686d")
 		)
@@ -18488,18 +18993,18 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 256.54 46.99 0)
+		(at 270.51 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f55bee67-78f0-4a7e-8d2e-e6036bb65c84")
 		(property "Reference" "TP3"
-			(at 259.08 42.4179 0)
+			(at 273.05 34.7979 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18510,7 +19015,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 44.9579 0)
+			(at 273.05 37.3379 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18521,7 +19026,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 261.62 46.99 0)
+			(at 275.59 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18532,7 +19037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 46.99 0)
+			(at 275.59 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18543,7 +19048,18 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 256.54 46.99 0)
+			(at 270.51 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "-"
+			(at 270.51 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18709,6 +19225,17 @@
 				)
 			)
 		)
+		(property "in_stock" "yes"
+			(at 30.48 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aae2d2b3-36d8-4d08-b5fd-7299e5394f5f")
 		)
@@ -18779,6 +19306,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 104.14 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "yes"
 			(at 104.14 49.53 0)
 			(hide yes)
 			(show_name no)
