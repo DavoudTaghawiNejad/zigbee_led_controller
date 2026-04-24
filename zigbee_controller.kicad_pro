@@ -398,11 +398,39 @@
         ""
       ],
       [
+        "footprint_link_issues|2146300|1752600|6fbfb09d-3d76-43b9-82a6-57cf265d6767|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
         "footprint_link_issues|2235200|1524000|6fbfb09d-3d76-43b9-82a6-57cf265d6767|00000000-0000-0000-0000-000000000000|||",
         ""
       ],
       [
         "footprint_link_issues|2514600|1524000|db9718dc-6f1f-4bc4-b0cd-9008b2ebf381|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|2540000|1752600|db9718dc-6f1f-4bc4-b0cd-9008b2ebf381|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|3009900|1739900|5d8e40b5-2eaa-438f-9973-f936d7ded2db|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|3403600|1739900|80e5604a-029d-46c1-9258-f4639fe14041|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|838200|495300|616f3177-b9b0-44bb-a30f-a246a3a9ad18|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "four_way_junction|381000|203200|649f1141-1860-4910-9e6c-f53b0a596fd5|865e03f2-190d-4b76-8705-7fee38a06ae8|/17b9f9ac-224d-422f-9c40-54a6770d01d0||",
+        ""
+      ],
+      [
+        "four_way_junction|381000|304800|8996092d-9fcc-41aa-93f9-be35d98ff807|8d1ee61d-84f4-418f-978d-a3a88d565827|/17b9f9ac-224d-422f-9c40-54a6770d01d0||",
         ""
       ],
       [
@@ -695,11 +723,7 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "3V3": [
-        "ESP32_power"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "5V",
@@ -885,7 +909,7 @@
         "uuid": "17b9f9ac-224d-422f-9c40-54a6770d01d0"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#FLG4-6",
     "variants": []
   },
   "sheets": [
