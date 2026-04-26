@@ -5420,145 +5420,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "davouds_symbol_library:+20V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+20V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+24V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+20V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+20V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "davouds_symbol_library:RT9080"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6102,7 +5963,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
+		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -6127,7 +5988,7 @@
 					)
 				)
 			)
-			(property "Value" "+3V3"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6159,7 +6020,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6181,7 +6042,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -6219,7 +6080,424 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+4V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+4V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+4V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+4V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+4V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5VD"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5VD"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5VD\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5VD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VD_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -6479,6 +6757,12 @@
 		(uuid "0652dc69-6021-430c-976c-f57ea4ead006")
 	)
 	(junction
+		(at 41.91 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b758403-86d6-4539-ab52-123df2d3793c")
+	)
+	(junction
 		(at 237.49 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6549,12 +6833,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24a12342-54ee-488d-8e8d-08e3c9fcd9c3")
-	)
-	(junction
-		(at 41.91 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28fc3eef-4232-4ad2-8395-e8540ac6e2d5")
 	)
 	(junction
 		(at 33.02 31.75)
@@ -6731,6 +7009,12 @@
 		(uuid "7ce78f89-efa5-4b7b-90ff-2cf733ede3a7")
 	)
 	(junction
+		(at 383.54 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dca3a3f-ce72-432a-8c15-756656dd495f")
+	)
+	(junction
 		(at 118.11 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6779,12 +7063,6 @@
 		(uuid "8f3a98c5-eb7f-4aa4-866e-26d5003d050e")
 	)
 	(junction
-		(at 38.1 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fbd5b36-f3e3-4928-8d8a-6264c25cb651")
-	)
-	(junction
 		(at 326.39 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6797,10 +7075,16 @@
 		(uuid "9623de91-7b11-456b-968f-fa21f42321d1")
 	)
 	(junction
+		(at 38.1 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99c0e348-72ea-429c-bee3-d71179e70b25")
+	)
+	(junction
 		(at 58.42 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9935e4c5-bd2c-44c1-bb78-ef24bceaa295")
+		(uuid "a964d306-fef7-4493-aeb0-a3ecff611ce2")
 	)
 	(junction
 		(at 309.88 148.59)
@@ -6891,12 +7175,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1b33180-45cf-48cc-9408-0d3552b04e04")
-	)
-	(junction
-		(at 43.18 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f91f3230-b26d-4ea7-b5b2-991b734fc004")
 	)
 	(junction
 		(at 152.4 120.65)
@@ -7228,16 +7506,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 35.56) (xy 38.1 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e7f1a3f-afd8-4de2-a774-9740334fd300")
-	)
-	(wire
-		(pts
 			(xy 189.23 30.48) (xy 189.23 24.13)
 		)
 		(stroke
@@ -7458,16 +7726,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 35.56) (xy 53.34 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32b71153-927c-48e8-825c-b44f8ccdbc8c")
-	)
-	(wire
-		(pts
 			(xy 35.56 30.48) (xy 38.1 30.48)
 		)
 		(stroke
@@ -7578,16 +7836,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 105.41) (xy 53.34 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "410d766f-651a-46a6-a293-9395202d90d5")
-	)
-	(wire
-		(pts
 			(xy 153.67 62.23) (xy 153.67 66.04)
 		)
 		(stroke
@@ -7685,16 +7933,6 @@
 			(type default)
 		)
 		(uuid "4a3d4c23-13a4-4a99-8a40-80803c25f825")
-	)
-	(wire
-		(pts
-			(xy 43.18 101.6) (xy 41.91 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a53c4ce-4d0e-463c-8a51-df86598aa45b")
 	)
 	(wire
 		(pts
@@ -7818,16 +8056,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 105.41) (xy 58.42 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "594c7a63-1a57-4843-a6b8-c8bcbef562c5")
-	)
-	(wire
-		(pts
 			(xy 262.89 148.59) (xy 262.89 158.75)
 		)
 		(stroke
@@ -7878,7 +8106,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 101.6) (xy 58.42 101.6)
+			(xy 41.91 101.6) (xy 58.42 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8035,16 +8263,6 @@
 			(type default)
 		)
 		(uuid "6c47d5d3-e956-4b41-af27-5176fb766e91")
-	)
-	(wire
-		(pts
-			(xy 69.85 105.41) (xy 71.12 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c849ce2-789c-4615-ae8a-fbac9d1dc424")
 	)
 	(wire
 		(pts
@@ -8398,16 +8616,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 35.56) (xy 41.91 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d76df42-cd37-4f3d-b861-57f8af405dfe")
-	)
-	(wire
-		(pts
 			(xy 190.5 160.02) (xy 194.31 160.02)
 		)
 		(stroke
@@ -8515,6 +8723,16 @@
 			(type default)
 		)
 		(uuid "9658a6e1-b97d-4c2d-bd8b-5a40519a467a")
+	)
+	(wire
+		(pts
+			(xy 38.1 31.75) (xy 41.91 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98652452-3013-4fcf-af37-da6b63495e2c")
 	)
 	(wire
 		(pts
@@ -8688,7 +8906,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 105.41) (xy 71.12 107.95)
+			(xy 71.12 101.6) (xy 71.12 107.95)
 		)
 		(stroke
 			(width 0)
@@ -8778,6 +8996,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 215.9) (xy 383.54 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa1d3d20-5e98-4629-a697-9aa2040b3e8d")
+	)
+	(wire
+		(pts
 			(xy 58.42 129.54) (xy 58.42 123.19)
 		)
 		(stroke
@@ -8815,16 +9043,6 @@
 			(type default)
 		)
 		(uuid "ac4985be-1c01-4b50-9ba9-0d76ee3cbe44")
-	)
-	(wire
-		(pts
-			(xy 43.18 105.41) (xy 43.18 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac5747ce-7fe6-42cb-9f70-e3eb5a7e248a")
 	)
 	(wire
 		(pts
@@ -9258,6 +9476,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 101.6) (xy 71.12 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c9f9b8-6d1e-49bf-b404-858cbccddd7d")
+	)
+	(wire
+		(pts
 			(xy 154.94 144.78) (xy 153.67 144.78)
 		)
 		(stroke
@@ -9518,16 +9746,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 46.99) (xy 107.95 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9d7863c-e933-455c-9950-e065f82cbe6d")
-	)
-	(wire
-		(pts
 			(xy 271.78 137.16) (xy 271.78 139.7)
 		)
 		(stroke
@@ -9645,16 +9863,6 @@
 			(type default)
 		)
 		(uuid "f3174ebf-5962-46f2-8218-0034985d06a7")
-	)
-	(wire
-		(pts
-			(xy 105.41 57.15) (xy 93.98 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3fae69f-2548-4546-abf6-4f31981c64fe")
 	)
 	(wire
 		(pts
@@ -10223,7 +10431,7 @@
 		(uuid "f618ff9c-cf79-4fc1-a659-016e7b63d9c0")
 	)
 	(symbol
-		(lib_id "davouds_symbol_library:+20V")
+		(lib_id "power:+4V")
 		(at 73.66 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -10276,7 +10484,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+4V\""
 			(at 73.66 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10300,7 +10508,7 @@
 		)
 	)
 	(symbol
-		(lib_id "davouds_symbol_library:+20V")
+		(lib_id "power:+5VD")
 		(at 248.92 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -10323,13 +10531,14 @@
 			)
 		)
 		(property "Value" "USB_5V"
-			(at 248.92 17.78 0)
+			(at 251.46 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10354,7 +10563,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
 			(at 248.92 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -10642,7 +10851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 109.22 137.4648 0)
 			(hide yes)
 			(show_name no)
@@ -10811,7 +11020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 306.07 150.368 90)
 			(hide yes)
 			(show_name no)
@@ -11733,7 +11942,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33Ω"
+		(property "Value" "33"
 			(at 187.96 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11744,7 +11953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 183.642 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -12257,7 +12466,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "power:+3.3V")
 		(at 367.03 40.64 0)
 		(mirror y)
 		(unit 1)
@@ -12281,13 +12490,14 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 367.03 35.56 0)
+			(at 369.57 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -12312,7 +12522,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 367.03 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -12336,7 +12546,7 @@
 		)
 	)
 	(symbol
-		(lib_id "davouds_symbol_library:+20V")
+		(lib_id "power:+5V")
 		(at 34.29 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -12390,7 +12600,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 34.29 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -13103,7 +13313,7 @@
 		)
 	)
 	(symbol
-		(lib_id "davouds_symbol_library:+20V")
+		(lib_id "power:+5V")
 		(at 306.07 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -13126,13 +13336,14 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 306.07 120.65 0)
+			(at 308.61 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13157,7 +13368,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 306.07 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -13202,7 +13413,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Schottky_MBRB2045CT"
+		(property "Value" "MBRB2045CT"
 			(at 231.902 178.308 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13381,7 +13592,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "power:+3.3V")
 		(at 278.13 30.48 0)
 		(unit 1)
 		(body_style 1)
@@ -13404,13 +13615,14 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 278.13 25.4 0)
+			(at 280.67 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13435,7 +13647,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 278.13 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -13647,7 +13859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 113.792 127 90)
 			(hide yes)
 			(show_name no)
@@ -14598,7 +14810,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33Ω"
+		(property "Value" "33"
 			(at 312.42 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14609,7 +14821,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 311.658 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -14669,7 +14881,7 @@
 		)
 	)
 	(symbol
-		(lib_id "davouds_symbol_library:+20V")
+		(lib_id "power:+5VD")
 		(at 13.97 30.48 0)
 		(unit 1)
 		(body_style 1)
@@ -14722,7 +14934,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
 			(at 13.97 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -14767,7 +14979,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Schottky_MBRB2045CT"
+		(property "Value" "MBRB2045CT"
 			(at 278.892 178.308 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15480,7 +15692,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 36.068 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -15741,6 +15953,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 377.19 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ebebf39-d502-4e51-85ed-e437951391bd")
+		(property "Reference" "TP5"
+			(at 379.73 211.3279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 379.73 213.8679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 382.27 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 377.19 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "-"
+			(at 377.19 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "781e5d79-53c3-49c3-b3ed-43f59c4f3339")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 214.63 175.26 0)
 		(mirror x)
@@ -15834,7 +16136,7 @@
 		)
 	)
 	(symbol
-		(lib_id "davouds_symbol_library:+20V")
+		(lib_id "power:+3.3V")
 		(at 138.43 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -15888,7 +16190,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 138.43 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -15945,7 +16247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 57.4548 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -16191,7 +16493,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "power:+3.3V")
 		(at 115.57 121.92 0)
 		(unit 1)
 		(body_style 1)
@@ -16214,13 +16516,14 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 115.57 116.84 0)
+			(at 118.11 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -16245,7 +16548,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 115.57 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -16290,7 +16593,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Schottky_MBRB2045CT"
+		(property "Value" "MBRB2045CT"
 			(at 192.532 179.578 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16385,7 +16688,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Schottky_MBRB2045CT"
+		(property "Value" "MBRB2045CT"
 			(at 318.262 178.308 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16566,7 +16869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 267.97 150.368 90)
 			(hide yes)
 			(show_name no)
@@ -16648,7 +16951,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33Ω"
+		(property "Value" "33"
 			(at 226.06 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16659,7 +16962,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 225.298 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -17315,7 +17618,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33Ω"
+		(property "Value" "33"
 			(at 274.32 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17326,7 +17629,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 273.558 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -17586,7 +17889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 181.61 151.638 90)
 			(hide yes)
 			(show_name no)
@@ -18429,7 +18732,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 219.71 151.638 90)
 			(hide yes)
 			(show_name no)
@@ -18489,7 +18792,7 @@
 		)
 	)
 	(symbol
-		(lib_id "davouds_symbol_library:+20V")
+		(lib_id "power:+4V")
 		(at 33.02 30.48 0)
 		(unit 1)
 		(body_style 1)
@@ -18542,7 +18845,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+4V\""
 			(at 33.02 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -18644,7 +18947,7 @@
 		)
 	)
 	(symbol
-		(lib_id "davouds_symbol_library:+20V")
+		(lib_id "power:+5V")
 		(at 369.57 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -18667,13 +18970,14 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 369.57 93.98 0)
+			(at 372.11 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -18698,7 +19002,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 369.57 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -18722,19 +19026,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "power:+4V")
 		(at 367.03 215.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b78ffcec-6095-431d-99d1-66c6b66383b4")
 		(property "Reference" "TP4"
-			(at 369.57 211.3279 0)
+			(at 369.57 213.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18745,7 +19049,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 369.57 213.8679 0)
+			(at 369.57 215.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18756,7 +19060,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 372.11 215.9 0)
+			(at 367.03 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18767,7 +19071,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 372.11 215.9 0)
+			(at 367.03 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18777,7 +19081,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Power symbol creates a global label with name \"+4V\""
 			(at 367.03 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -19078,7 +19382,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LRC LESD5D5.0CT1G"
+		(property "Value" "LESD5D5.0CT1G"
 			(at 34.29 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19347,7 +19651,7 @@
 		)
 	)
 	(symbol
-		(lib_id "davouds_symbol_library:+20V")
+		(lib_id "power:+4V")
 		(at 361.95 214.63 0)
 		(unit 1)
 		(body_style 1)
@@ -19400,7 +19704,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+4V\""
 			(at 361.95 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -19504,7 +19808,7 @@
 		)
 	)
 	(symbol
-		(lib_id "davouds_symbol_library:+20V")
+		(lib_id "power:+5V")
 		(at 232.41 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -19527,13 +19831,14 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 232.41 17.78 0)
+			(at 234.95 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -19558,7 +19863,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 232.41 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -19775,7 +20080,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LRC LESD5D5.0CT1G"
+		(property "Value" "LESD5D5.0CT1G"
 			(at 39.624 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20472,7 +20777,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 71.882 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -20886,7 +21191,7 @@
 		)
 	)
 	(symbol
-		(lib_id "davouds_symbol_library:+20V")
+		(lib_id "power:+5V")
 		(at 217.17 127 0)
 		(unit 1)
 		(body_style 1)
@@ -20909,13 +21214,14 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 217.17 121.92 0)
+			(at 219.71 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -20940,7 +21246,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 217.17 127 0)
 			(hide yes)
 			(show_name no)
@@ -21209,54 +21515,6 @@
 		)
 	)
 	(group ""
-		(uuid "7b5656b2-9493-42dc-885c-3046c4016f3e")
-		(members "0cb81708-3309-44e1-bc4c-f4874eb2cbc2" "0d3e182c-18c9-483f-8e0a-0056c6e06815"
-			"0e1bd8d5-1f49-4603-99e1-0a9cd6956042" "11bc4dbb-0893-46aa-86c2-ce7a2b8e4c2e"
-			"16c8a39e-c848-4991-b18f-164b93d5012f" "170159fd-4069-45f5-b88a-6cb8c85c9ab1"
-			"19096a07-ad12-485f-87e6-b9d4b83f6f28" "1ba95053-bae6-4d6a-aaa8-ea67f040166d"
-			"1e98da45-c1d5-4ae5-a0fc-cbb8e3d55e8e" "205ec2b8-be09-4b96-a4ca-7b6abf17e089"
-			"24d9e66f-19b7-489c-ad29-0e5f46ea71bd" "27f51bee-280e-44b6-83a5-66eecb7ea94d"
-			"291e06bc-6f99-462f-96d7-f263d04362d4" "2ed5ca6b-9777-4841-80bc-2817abacadfc"
-			"30d67de4-5f7f-4852-9a22-c44a3bebfb40" "32eb1a22-ef51-4e67-bbb2-a28999b983d2"
-			"3604fe73-3e7e-4d8c-9052-5e15dace96aa" "376d6545-fae6-4fb3-9d48-2843365d77ce"
-			"384b1297-83f2-4b23-8f65-e5db52936702" "3bbaf09f-9e15-422b-9d55-ad5784eb6105"
-			"3c429a5c-1f8c-4958-9085-dbb5334cb8ab" "41a5d517-2b18-461b-bb38-84204afeabc0"
-			"4662acbd-9b89-43f4-8920-1cf1da32fd91" "49140750-8ce3-4877-90b5-570a0838a7ea"
-			"4a74262b-913d-402d-8e57-6bc807178dd3" "4d4e16e6-3d43-40db-8694-ba7849f79cab"
-			"4f783318-3851-4e39-96aa-2c9d7597610e" "5131cf46-d23c-41aa-ba69-aa15ca4b748e"
-			"5275d6ac-584b-40f1-8e15-d93707cd91be" "559457ec-f4f7-432a-9ad2-99716797ae57"
-			"55d64d9f-b920-44fd-8d1a-d33763254af1" "64617598-29b5-4b94-af8c-06334d7082bb"
-			"65c20d66-ae4b-4be5-a06d-18f5466c4228" "6a999cfb-c089-4328-acae-ce8da364548b"
-			"6af52d7e-a94a-4d1e-8c01-236ee7d774ab" "6b19e671-79ed-4a77-b187-0d627ac95c00"
-			"6c47d5d3-e956-4b41-af27-5176fb766e91" "6d42bae0-c332-4f3c-85e6-5751c803f4fa"
-			"6fee591d-130d-4980-a2eb-388d59e64c52" "78b40dd6-f29b-46b9-bc3c-bf3bfee4b470"
-			"7d810b1a-1f62-4858-98a4-0cf53ac5a21e" "7f6c6605-41f0-4ed3-b6bf-d532a1e7d5ec"
-			"80bb56dc-e87d-42a0-97f9-51709edcb93a" "851058d4-472c-402e-b18c-b4e9a9134c31"
-			"8776b73e-43de-4eaf-bebf-97800657217d" "878a5696-02cc-46fa-a732-96650e32d470"
-			"88197dcf-8d02-4ea4-b82e-f21f92f30ef3" "8b2931b2-c553-44aa-a694-ac1098a4fbfc"
-			"8c6519f3-5b28-491d-90d5-9802159c9a34" "935725a9-e1bb-449a-a118-98f2a48b94c9"
-			"9374d8ce-a1cc-49da-85c4-0c89cb9714bb" "939bcf85-f34a-459f-9f99-a8933fc23e35"
-			"93b3c736-f94f-4d11-8f2f-c907d77cec8d" "964e5137-2b69-4c61-aaf2-19572c8c9a69"
-			"9974df2b-5ae9-4f33-a583-72e14771cc93" "9a9849dc-2aec-4af4-8067-5e2daef89dca"
-			"9b13759f-f8e0-48c6-bd1e-49348b4cd07b" "9ceb9431-6439-408d-99ad-926c5a0985f0"
-			"a42e273e-400e-4d73-8478-6aac6567faed" "a5a335ee-1906-40fc-babd-98e8dc94ccae"
-			"a82c0bd5-43f9-4a71-b69e-ac86158acd89" "ac431b2c-f7ea-4d35-8a04-5891a219b703"
-			"b8dca9cc-8253-4928-af67-b7af06897956" "ba774e32-b882-4acb-b1de-86bc891ba7a6"
-			"bbc5e02f-0dcd-47ae-b02b-98dd0e92139a" "bd52a919-0b7b-42d9-9bcf-2800cc25e178"
-			"bddca8b2-6fa2-4996-9ab1-363da94756e7" "c55869b3-7c8a-4ab8-a8c9-64925e73cb42"
-			"c6c1cc1e-0b8f-4ed0-8072-a8f19c373285" "cd601029-cff4-4681-9950-bcab97257e06"
-			"ceae6497-9193-4c85-b4ed-42ba2ccbd40c" "d04046bc-0d14-4ab5-813d-df2f1ff28395"
-			"d64f5836-4103-4a84-9dd5-1f7f0305f60e" "d73927b4-793d-4595-8aaf-50ea464e0738"
-			"d8c581fe-79b2-4249-9c5c-a3b900102f7f" "d9a00c86-0de7-4ddd-a68a-25066c5bd9ec"
-			"ddd026ea-917b-4a52-a031-e6b4d5327bea" "e1a6d7ab-0efd-4aa1-adf1-03057288866c"
-			"e35ee571-f46b-4b87-a1c3-0a3f2f9596a3" "e4628858-0e6e-4a69-a8b4-1ce264ece58b"
-			"e5b303f7-efc8-4679-88e5-78bffac98948" "eb88aac9-f6a3-466c-8026-ebbb9443426f"
-			"edac970d-c8b3-4eaa-9821-65af29c8348b" "ee0fcfcf-1229-43bd-8195-c49866356447"
-			"ef2b584d-c974-4356-871a-d648bfebfa60" "f8132236-eec2-4fb9-a06f-8c487b4fe1a0"
-			"f907f5a7-56c1-42ae-bab1-210250c96c0f" "faaca74b-823b-435c-92ce-e99667f9dcc3"
-		)
-	)
-	(group ""
 		(uuid "7e3e5cb7-f554-4ce4-bbc0-5297c2422425")
 		(members "1a3a45b7-e286-4887-af68-aefef0ce0426" "1c9b0370-d197-4113-a8af-bfa50e5c366a"
 			"237b3ea9-d738-4223-95cc-4a596e2b70e2" "3909faf2-9c95-4e98-b88b-89224e02cd80"
@@ -21395,14 +21653,14 @@
 			"60f5a982-3ea6-4a9a-a2ee-8ff50f0f1325" "614c3105-482c-4773-9716-a01b476ea010"
 			"616f3177-b9b0-44bb-a30f-a246a3a9ad18" "6961208c-4c8d-47ba-8aef-5758be995554"
 			"6f50e52f-ab18-474b-a836-6d61ad0b473e" "75c08fee-a2d6-4876-a50b-f870829a616c"
-			"78cb1773-4776-4949-973d-0c10ff975984" "7b5656b2-9493-42dc-885c-3046c4016f3e"
-			"830d1aea-b641-440a-b641-e53bebe01be5" "84b826c2-077d-41e1-a2e5-672f435af0aa"
-			"882f0caa-d8c8-4d18-a0c7-a6fe64195eda" "8c45833f-99e1-42f0-b94b-5a2bb4df1112"
-			"8e6a162b-9440-40f5-85a4-b42bca9eed8c" "910ff9a4-1464-4341-99f2-99f5d817bce7"
-			"9e394114-93d8-40d3-b1c7-2b18a6cc94fb" "af228157-85fd-491d-9faa-b9891f82ebf8"
-			"af55ce47-5336-422a-ac1e-a5eae792d1b0" "c9fcee53-5f1c-4f57-ab8c-29285c2a7d8b"
-			"cedb700e-ce45-4550-8736-38e06270c4d1" "ef082814-777d-4026-9888-3e4118f29c59"
-			"f0fcb67a-0144-41cd-988c-b2e58f9f939c" "fbae27d0-c422-40a7-9ed1-2a369ae1fdf4"
+			"78cb1773-4776-4949-973d-0c10ff975984" "830d1aea-b641-440a-b641-e53bebe01be5"
+			"84b826c2-077d-41e1-a2e5-672f435af0aa" "882f0caa-d8c8-4d18-a0c7-a6fe64195eda"
+			"8c45833f-99e1-42f0-b94b-5a2bb4df1112" "8e6a162b-9440-40f5-85a4-b42bca9eed8c"
+			"910ff9a4-1464-4341-99f2-99f5d817bce7" "9e394114-93d8-40d3-b1c7-2b18a6cc94fb"
+			"af228157-85fd-491d-9faa-b9891f82ebf8" "af55ce47-5336-422a-ac1e-a5eae792d1b0"
+			"c9fcee53-5f1c-4f57-ab8c-29285c2a7d8b" "cedb700e-ce45-4550-8736-38e06270c4d1"
+			"ef082814-777d-4026-9888-3e4118f29c59" "f0fcb67a-0144-41cd-988c-b2e58f9f939c"
+			"fbae27d0-c422-40a7-9ed1-2a369ae1fdf4"
 		)
 	)
 	(sheet_instances
