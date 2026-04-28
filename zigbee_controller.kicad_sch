@@ -10974,6 +10974,17 @@
 				)
 			)
 		)
+		(property "in_stock" "-"
+			(at 38.1 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8996092d-9fcc-41aa-93f9-be35d98ff807")
 		)
@@ -11145,7 +11156,7 @@
 				)
 			)
 		)
-		(property "in_stock" ""
+		(property "in_stock" "ordered-20"
 			(at 189.23 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -11304,6 +11315,17 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 25.4 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "-"
+			(at 25.4 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11795,6 +11817,17 @@
 				)
 			)
 		)
+		(property "in_stock" "-"
+			(at 55.88 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "45d5f3d7-f5ae-46c7-bfc5-cea8a142b62c")
 		)
@@ -11890,7 +11923,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "ordered-2"
 			(at 223.52 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -12257,6 +12290,17 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 48.26 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "-"
+			(at 53.34 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12689,7 +12733,7 @@
 				)
 			)
 		)
-		(property "in_stock" ""
+		(property "in_stock" "ordered-20"
 			(at 199.39 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -13286,7 +13330,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "ordered-20"
 			(at 109.22 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -13457,7 +13501,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "yes-5"
 			(at 240.03 168.91 90)
 			(hide yes)
 			(show_name no)
@@ -13553,7 +13597,7 @@
 				)
 			)
 		)
-		(property "in_stock" ""
+		(property "in_stock" "yes"
 			(at 375.92 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14205,7 +14249,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "ordered-2"
 			(at 309.88 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -14392,7 +14436,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "ordered-2"
 			(at 138.43 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -14716,7 +14760,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "ordered-10"
 			(at 57.15 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15023,7 +15067,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "yes-5"
 			(at 287.02 168.91 90)
 			(hide yes)
 			(show_name no)
@@ -15118,7 +15162,7 @@
 				)
 			)
 		)
-		(property "in_stock" "ordered"
+		(property "in_stock" "yes"
 			(at 250.19 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -15167,7 +15211,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Terminal MKDS"
+		(property "Value" "TerminalBlock_KF301-5.0"
 			(at 303.53 171.4501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15178,7 +15222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:MKDS 1,5 2-5,08 P2"
+		(property "Footprint" "TerminalBlock:TerminalBlock_KF301-5.0"
 			(at 300.99 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -15211,7 +15255,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "ordered-2 (similar)"
 			(at 300.99 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -15335,7 +15379,7 @@
 				)
 			)
 		)
-		(property "Value" "Terminal MKDS"
+		(property "Value" "KF635"
 			(at 80.518 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15345,7 +15389,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:MKDS 1,5 2-5,08 P2"
+		(property "Footprint" "TerminalBlock:TerminalBlock_KF635-6.35"
 			(at 83.82 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -15378,7 +15422,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "ordered-2 (similar)"
 			(at 83.82 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -15471,7 +15515,7 @@
 				)
 			)
 		)
-		(property "in_stock" ""
+		(property "in_stock" "yes"
 			(at 189.23 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -15564,6 +15608,17 @@
 				)
 			)
 		)
+		(property "in_stock" "ordered-20"
+			(at 189.23 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ee0632e3-c814-4136-8c80-5ee67b147740")
 		)
@@ -15634,6 +15689,17 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 20.32 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "-"
+			(at 20.32 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15923,7 +15989,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "ordered-2"
 			(at 271.78 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -16065,7 +16131,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Terminal MKDS"
+		(property "Value" "TerminalBlock_KF301-5.0"
 			(at 217.17 172.7201 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16076,7 +16142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:MKDS 1,5 2-5,08 P2"
+		(property "Footprint" "TerminalBlock:TerminalBlock_KF301-5.0"
 			(at 214.63 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -16109,7 +16175,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "ordered-2 (similar)"
 			(at 214.63 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -16280,7 +16346,7 @@
 				)
 			)
 		)
-		(property "in_stock" "ordered"
+		(property "in_stock" "yes"
 			(at 58.42 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -16370,7 +16436,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "ordered-2"
 			(at 205.74 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -16637,7 +16703,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "yes-5"
 			(at 200.66 170.18 90)
 			(hide yes)
 			(show_name no)
@@ -16732,7 +16798,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "yes-5"
 			(at 326.39 168.91 90)
 			(hide yes)
 			(show_name no)
@@ -17122,7 +17188,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Terminal MKDS"
+		(property "Value" "TerminalBlock_KF301-5.0"
 			(at 342.9 171.4501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17133,7 +17199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:MKDS 1,5 2-5,08 P2"
+		(property "Footprint" "TerminalBlock:TerminalBlock_KF301-5.0"
 			(at 340.36 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -17166,7 +17232,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "ordered-2 (similar)"
 			(at 340.36 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -17324,6 +17390,17 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 44.45 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "-"
+			(at 44.45 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18013,7 +18090,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "ordered-20"
 			(at 105.41 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -18351,6 +18428,17 @@
 				)
 			)
 		)
+		(property "in_stock" "-"
+			(at 35.56 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7d507211-5809-4483-aaf1-73ba577b4d42")
 		)
@@ -18675,7 +18763,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "ordered-10"
 			(at 195.58 24.13 90)
 			(hide yes)
 			(show_name no)
@@ -19345,6 +19433,17 @@
 				)
 			)
 		)
+		(property "in_stock" "-"
+			(at 58.42 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e24e6c54-4972-4356-bfdb-5d2e364c4076")
 		)
@@ -19426,7 +19525,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "ordered-20"
 			(at 30.48 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -19621,7 +19720,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "ordered-2"
 			(at 185.42 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -19782,6 +19881,17 @@
 			)
 		)
 		(property "Description" "60V 3A Schottky Diode, SMA"
+			(at 242.57 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "ordered-100"
 			(at 242.57 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -20043,6 +20153,17 @@
 				)
 			)
 		)
+		(property "in_stock" "-"
+			(at 34.29 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "adc98239-071c-4b1a-ac83-075874703d18")
 		)
@@ -20124,7 +20245,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "ordered-20"
 			(at 24.13 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -20265,7 +20386,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Terminal MKDS"
+		(property "Value" "TerminalBlock_KF301-5.0"
 			(at 256.54 172.7201 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20276,7 +20397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:MKDS 1,5 2-5,08 P2"
+		(property "Footprint" "TerminalBlock:TerminalBlock_KF301-5.0"
 			(at 254 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -20309,7 +20430,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "ordered-2 (similar)"
 			(at 254 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -20570,6 +20691,17 @@
 				)
 			)
 		)
+		(property "in_stock" "-"
+			(at 40.64 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1f58a4e9-4461-4f82-8e97-dcf367d949ab")
 		)
@@ -20640,6 +20772,17 @@
 			)
 		)
 		(property "Description" "60V 3A Schottky Diode, SMA"
+			(at 27.94 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "ordered-100"
 			(at 27.94 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -20900,7 +21043,7 @@
 				)
 			)
 		)
-		(property "in_stock" "no"
+		(property "in_stock" "ordered-2"
 			(at 294.64 127 90)
 			(hide yes)
 			(show_name no)
