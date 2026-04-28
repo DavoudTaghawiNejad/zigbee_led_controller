@@ -1,0 +1,11 @@
+(version 1)
+
+(rule "Ignore solder mask clearance for back silkscreen (except footprint text)"
+    (constraint silk_clearance)
+    (condition "A.Layer == 'B.Silkscreen' && (A.Type == 'graphic' || A.Type == 'dimension' || (A.Type == 'text' && !A.memberOfFootprint('*')))")
+    (severity ignore))
+
+(rule "Ignore edge clearance for back silkscreen (except footprint text)"
+    (constraint edge_clearance)
+    (condition "A.Type == 'dimension'")
+    (severity ignore))
