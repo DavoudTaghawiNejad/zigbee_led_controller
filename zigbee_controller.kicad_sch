@@ -10517,7 +10517,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "05fb87c3-ccf1-4722-a96d-99633f6d65e6")
 		(property "Reference" "#PWR045"
 			(at 248.92 26.67 0)
@@ -10531,7 +10530,7 @@
 			)
 		)
 		(property "Value" "USB_5V"
-			(at 251.46 21.5899 0)
+			(at 249.682 19.558 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17448,7 +17447,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 252.73 21.59 0)
+			(at 244.602 27.686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19927,7 +19926,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ceae6497-9193-4c85-b4ed-42ba2ccbd40c")
 		(property "Reference" "#PWR09"
 			(at 232.41 26.67 0)
@@ -19941,7 +19939,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 234.95 21.5899 0)
+			(at 233.172 19.558 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

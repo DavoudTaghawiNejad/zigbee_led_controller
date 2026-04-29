@@ -62,7 +62,31 @@
       ],
       "drc_exclusions": [
         [
+          "footprint_filters_mismatch|168780736|124422032|9aa94560-6a0f-4461-b593-c6465188b81f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_filters_mismatch|200682621|104343442|4b2441ec-828c-43b9-96a6-f9b6c4bf3f95|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_filters_mismatch|200682621|115558476|758ae5bc-758a-49a4-9d57-b6ea440405ec|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_filters_mismatch|200682621|126671578|ea26e267-0aa4-49d7-85b1-655cb8f1e091|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_filters_mismatch|200682621|92834535|0be0d9f8-db4c-4b01-b1c3-5a17726fb34f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "silk_edge_clearance|204000000|70000000|cfba8127-89a0-4eed-bd20-80281090cc79|89ce0151-d87b-4123-bb2e-cc9348806127",
+          ""
+        ],
+        [
+          "silk_edge_clearance|208000000|74768210|cfba8127-89a0-4eed-bd20-80281090cc79|3056fa2e-c301-417c-9a6c-8b3abcbc2891",
           ""
         ],
         [
@@ -74,7 +98,7 @@
           ""
         ],
         [
-          "silk_over_copper|205500000|73500000|3056fa2e-c301-417c-9a6c-8b3abcbc2891|70ee2438-a089-4d48-9863-45dda2a2e0b6",
+          "silk_over_copper|205797619|73855038|3056fa2e-c301-417c-9a6c-8b3abcbc2891|70ee2438-a089-4d48-9863-45dda2a2e0b6",
           ""
         ],
         [
@@ -99,8 +123,8 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
-        "footprint_symbol_field_mismatch": "error",
+        "footprint_filters_mismatch": "warning",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
