@@ -10078,17 +10078,6 @@
 		)
 		(uuid "165be189-4b60-407b-88c4-f2ea1746f664")
 	)
-	(label "IO14"
-		(at 369.57 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 194 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "1c9b0370-d197-4113-a8af-bfa50e5c366a")
-	)
 	(label "IO12-usb"
 		(at 154.94 139.7 0)
 		(effects
@@ -10130,17 +10119,6 @@
 			(justify right bottom)
 		)
 		(uuid "31bf172c-d7ef-4017-9ee9-2c974030e1f0")
-	)
-	(label "IO21"
-		(at 369.57 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 194 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "410ce687-3d55-4333-a454-970284cf7c60")
 	)
 	(label "IO13-usb"
 		(at 367.03 77.47 180)
@@ -10268,6 +10246,17 @@
 		)
 		(uuid "79395626-0a93-47e9-b5b2-4a5b91ac17f4")
 	)
+	(label "IO14"
+		(at 369.57 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 194 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a93f4c5-8555-41fb-be6a-c2ac3cd0f979")
+	)
 	(label "IO20"
 		(at 154.94 157.48 0)
 		(effects
@@ -10278,6 +10267,17 @@
 			(justify left bottom)
 		)
 		(uuid "8325edb1-5acf-4a0a-87a4-c9daf0a511cf")
+	)
+	(label "IO20"
+		(at 369.57 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 194 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "85a2f856-4ae2-4bef-b847-7c6d466ef684")
 	)
 	(label "TX"
 		(at 367.03 72.39 180)
@@ -10343,17 +10343,6 @@
 		)
 		(uuid "ba818b7a-2b7d-4f3d-9786-97019ae79b6d")
 	)
-	(label "IO20"
-		(at 369.57 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 194 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "d157f8aa-450f-4c8a-976f-7bf17070cbb6")
-	)
 	(label "IO0"
 		(at 367.03 49.53 180)
 		(effects
@@ -10386,6 +10375,17 @@
 			(justify right bottom)
 		)
 		(uuid "df336a88-69e8-450b-8e22-4d873fe1c001")
+	)
+	(label "IO21"
+		(at 369.57 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 194 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7d46fc9-ddee-4ac4-a170-b1cdfa3ddc33")
 	)
 	(label "IO12-usb"
 		(at 367.03 80.01 180)
@@ -21657,13 +21657,22 @@
 	)
 	(group ""
 		(uuid "7e3e5cb7-f554-4ce4-bbc0-5297c2422425")
-		(members "1a3a45b7-e286-4887-af68-aefef0ce0426" "1c9b0370-d197-4113-a8af-bfa50e5c366a"
-			"237b3ea9-d738-4223-95cc-4a596e2b70e2" "3909faf2-9c95-4e98-b88b-89224e02cd80"
-			"3a4ca18a-36e0-49c1-884b-d42ba5c888c9" "410ce687-3d55-4333-a454-970284cf7c60"
-			"74f00252-e4ce-4772-8ec5-a571e09535ee" "82c6eee8-1530-4aa4-b3e0-2758f65f7976"
-			"a33a88cc-8317-41fd-b35f-f931bb5c595a" "b6f24041-1d8b-4f3c-a0f2-20fc508b4f7c"
-			"cb6631ac-37e4-46d6-a7b4-230295c7fabc" "d157f8aa-450f-4c8a-976f-7bf17070cbb6"
-			"f3174ebf-5962-46f2-8218-0034985d06a7"
+		(members "1a3a45b7-e286-4887-af68-aefef0ce0426" "237b3ea9-d738-4223-95cc-4a596e2b70e2"
+			"3909faf2-9c95-4e98-b88b-89224e02cd80" "3a4ca18a-36e0-49c1-884b-d42ba5c888c9"
+			"74f00252-e4ce-4772-8ec5-a571e09535ee" "7a93f4c5-8555-41fb-be6a-c2ac3cd0f979"
+			"82c6eee8-1530-4aa4-b3e0-2758f65f7976" "a33a88cc-8317-41fd-b35f-f931bb5c595a"
+			"b6f24041-1d8b-4f3c-a0f2-20fc508b4f7c" "cb6631ac-37e4-46d6-a7b4-230295c7fabc"
+			"e7d46fc9-ddee-4ac4-a170-b1cdfa3ddc33" "f3174ebf-5962-46f2-8218-0034985d06a7"
+		)
+	)
+	(group ""
+		(uuid "7e3e5cb7-f554-4ce4-bbc0-5297c2422425")
+		(members "1a3a45b7-e286-4887-af68-aefef0ce0426" "237b3ea9-d738-4223-95cc-4a596e2b70e2"
+			"3909faf2-9c95-4e98-b88b-89224e02cd80" "3a4ca18a-36e0-49c1-884b-d42ba5c888c9"
+			"74f00252-e4ce-4772-8ec5-a571e09535ee" "7a93f4c5-8555-41fb-be6a-c2ac3cd0f979"
+			"82c6eee8-1530-4aa4-b3e0-2758f65f7976" "a33a88cc-8317-41fd-b35f-f931bb5c595a"
+			"b6f24041-1d8b-4f3c-a0f2-20fc508b4f7c" "cb6631ac-37e4-46d6-a7b4-230295c7fabc"
+			"e7d46fc9-ddee-4ac4-a170-b1cdfa3ddc33" "f3174ebf-5962-46f2-8218-0034985d06a7"
 		)
 	)
 	(group ""
