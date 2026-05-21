@@ -15716,7 +15716,7 @@
 				)
 			)
 		)
-		(property "Value" "power_via_terminal"
+		(property "Value" "power via terminal"
 			(at 22.098 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
