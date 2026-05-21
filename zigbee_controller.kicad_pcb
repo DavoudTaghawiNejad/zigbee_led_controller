@@ -28888,14 +28888,14 @@
 		(style
 			(thickness 0.1)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
 			(arrow_direction outward)
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
 		(gr_text "4"
-			(at 154.5 123.85 0)
+			(at 154.5 126.45 0)
 			(layer "B.SilkS")
 			(uuid "8be7eb07-1bdf-4828-ac6d-6063533d7519")
 			(effects
