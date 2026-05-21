@@ -11342,7 +11342,7 @@
 				)
 			)
 		)
-		(property "Value" "power_via_terminal(CFG1-H)"
+		(property "Value" "CFG1-H"
 			(at 34.29 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
