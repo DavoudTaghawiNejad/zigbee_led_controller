@@ -6871,6 +6871,12 @@
 		(uuid "3bbaf09f-9e15-422b-9d55-ad5784eb6105")
 	)
 	(junction
+		(at 41.91 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bceea6d-135d-4712-aa34-cf4b1876e45b")
+	)
+	(junction
 		(at 284.48 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6913,12 +6919,6 @@
 		(uuid "53e086e1-66ca-4a04-bb82-a8643e9347c5")
 	)
 	(junction
-		(at 41.91 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54b0b1ab-0b7f-4a3b-83d2-faf0c4b4fef6")
-	)
-	(junction
 		(at 182.88 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6959,12 +6959,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fd1f7c4-ec42-4bb0-8b09-bf5abcf9ae9c")
-	)
-	(junction
-		(at 30.48 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "626b2922-72cd-4100-b27a-ed20d8fcbee7")
 	)
 	(junction
 		(at 304.8 124.46)
@@ -7091,6 +7085,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cd4097f-5193-48a9-857e-0e19af8488af")
+	)
+	(junction
+		(at 29.21 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a10919f0-8702-485e-a8bf-d7c59bcb975f")
 	)
 	(junction
 		(at 58.42 101.6)
@@ -7524,7 +7524,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 60.96) (xy 24.13 63.5)
+			(xy 29.21 60.96) (xy 29.21 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7671,16 +7671,6 @@
 			(type default)
 		)
 		(uuid "2809a978-5ec9-414a-83c3-b3c15fead53f")
-	)
-	(wire
-		(pts
-			(xy 30.48 63.5) (xy 30.48 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "284addfe-6a09-42f3-92ad-a762875d3bbc")
 	)
 	(wire
 		(pts
@@ -8034,6 +8024,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 63.5) (xy 29.21 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51b59574-5fd8-44d5-8f34-af6eb2ccbcc0")
+	)
+	(wire
+		(pts
 			(xy 53.34 140.97) (xy 55.88 140.97)
 		)
 		(stroke
@@ -8354,7 +8354,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 53.34) (xy 30.48 44.45)
+			(xy 21.59 53.34) (xy 21.59 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8714,7 +8714,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 53.34) (xy 24.13 49.53)
+			(xy 29.21 53.34) (xy 29.21 49.53)
 		)
 		(stroke
 			(width 0)
@@ -8761,6 +8761,16 @@
 			(type default)
 		)
 		(uuid "949aa0bf-39ac-4e68-91e5-8b729c7b3d69")
+	)
+	(wire
+		(pts
+			(xy 21.59 63.5) (xy 29.21 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "952a8225-ab7f-498d-9336-eac434ca0341")
 	)
 	(wire
 		(pts
@@ -9734,7 +9744,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 49.53) (xy 41.91 49.53)
+			(xy 29.21 49.53) (xy 41.91 49.53)
 		)
 		(stroke
 			(width 0)
@@ -9784,7 +9794,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 60.96) (xy 30.48 63.5)
+			(xy 21.59 60.96) (xy 21.59 63.5)
 		)
 		(stroke
 			(width 0)
@@ -9924,7 +9934,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 44.45) (xy 41.91 44.45)
+			(xy 21.59 44.45) (xy 41.91 44.45)
 		)
 		(stroke
 			(width 0)
@@ -10031,16 +10041,6 @@
 			(type default)
 		)
 		(uuid "f907f5a7-56c1-42ae-bab1-210250c96c0f")
-	)
-	(wire
-		(pts
-			(xy 24.13 63.5) (xy 30.48 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9f52629-f02c-496a-9fb4-553296853981")
 	)
 	(wire
 		(pts
@@ -10378,12 +10378,12 @@
 		(uuid "8d815489-75fd-401a-9856-5dc73dad89c7")
 	)
 	(label "IO13-usb"
-		(at 24.13 49.53 180)
+		(at 29.21 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "992ded6c-d623-4b55-861e-3ab5a1aa231a")
 	)
@@ -10432,12 +10432,12 @@
 		(uuid "b93991b4-75da-4f8d-95ad-3bf08b67765d")
 	)
 	(label "IO12-usb"
-		(at 30.48 44.45 180)
+		(at 21.59 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ba818b7a-2b7d-4f3d-9786-97019ae79b6d")
 	)
@@ -10764,7 +10764,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 66.04 0)
+		(at 29.21 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10774,7 +10774,7 @@
 		(dnp no)
 		(uuid "09b0ae86-5bcf-4a3f-bc4e-ad65409daae8")
 		(property "Reference" "#PWR021"
-			(at 30.48 72.39 0)
+			(at 29.21 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10785,7 +10785,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 70.866 0)
+			(at 29.21 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10795,7 +10795,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 66.04 0)
+			(at 29.21 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10806,7 +10806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 66.04 0)
+			(at 29.21 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10817,7 +10817,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 66.04 0)
+			(at 29.21 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19485,7 +19485,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Filled")
-		(at 30.48 57.15 90)
+		(at 21.59 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19495,7 +19495,7 @@
 		(dnp no)
 		(uuid "c1f2fe95-492b-4442-9749-2eb788a09f53")
 		(property "Reference" "D2"
-			(at 33.02 55.8799 90)
+			(at 23.622 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19506,7 +19506,7 @@
 			)
 		)
 		(property "Value" "LESD5D5.0CT1G"
-			(at 34.29 57.658 0)
+			(at 17.78 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19517,7 +19517,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 30.48 57.15 0)
+			(at 21.59 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19528,7 +19528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 57.15 0)
+			(at 21.59 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19539,7 +19539,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 30.48 57.15 0)
+			(at 21.59 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19550,7 +19550,7 @@
 			)
 		)
 		(property "in_stock" "ordered-20"
-			(at 30.48 57.15 90)
+			(at 21.59 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20195,7 +20195,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Filled")
-		(at 24.13 57.15 90)
+		(at 29.21 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20205,7 +20205,7 @@
 		(dnp no)
 		(uuid "d3adf1d4-dd70-48e6-ac57-117f570976cd")
 		(property "Reference" "D3"
-			(at 19.05 55.372 90)
+			(at 32.004 53.594 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20216,7 +20216,7 @@
 			)
 		)
 		(property "Value" "LESD5D5.0CT1G"
-			(at 39.624 57.658 0)
+			(at 33.02 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20227,7 +20227,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 24.13 57.15 0)
+			(at 29.21 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20238,7 +20238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 57.15 0)
+			(at 29.21 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20249,7 +20249,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 24.13 57.15 0)
+			(at 29.21 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20260,7 +20260,7 @@
 			)
 		)
 		(property "in_stock" "ordered-20"
-			(at 24.13 57.15 90)
+			(at 29.21 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22109,17 +22109,17 @@
 	(group ""
 		(uuid "da710bb1-3eb0-49f3-bb79-b0dfb7bbce80")
 		(members "09b0ae86-5bcf-4a3f-bc4e-ad65409daae8" "1e40503f-c7b0-48c3-ae14-e49a372b175d"
-			"241abaae-83b5-4bb9-8c4f-6e8e40d58f83" "284addfe-6a09-42f3-92ad-a762875d3bbc"
-			"35473e9c-2360-41c1-abf4-294e7049f4c5" "52c91047-d80b-4868-bfaf-fa3ff68cfead"
-			"54b0b1ab-0b7f-4a3b-83d2-faf0c4b4fef6" "5e3ef7bb-f6a8-49c8-80bc-5c8d62a78ef0"
-			"626b2922-72cd-4100-b27a-ed20d8fcbee7" "70f8005a-50dd-459b-9b56-3921faf8bf4b"
-			"929a0a1a-e5a2-467f-b864-9f6855405fd2" "992ded6c-d623-4b55-861e-3ab5a1aa231a"
-			"a53e6952-b81c-406d-92aa-543968470cf9" "ba818b7a-2b7d-4f3d-9786-97019ae79b6d"
-			"c1f2fe95-492b-4442-9749-2eb788a09f53" "d3adf1d4-dd70-48e6-ac57-117f570976cd"
-			"da5801fb-09e0-49ac-a8d5-661183cdc414" "e14a64b6-3ea4-48ab-81a0-7fc75f4748f7"
-			"e613a310-3b0e-46ba-abd6-998bab6de8f1" "e7a6c468-a8bc-406f-bee4-a5af4cb86d7c"
-			"ef1aa122-f025-4ae6-ae97-47a17a8e6019" "ef301680-19d7-474f-bf74-3fc8e51f66c9"
-			"f4fb1949-33b5-4e9a-9576-823812b547f8" "f9f52629-f02c-496a-9fb4-553296853981"
+			"241abaae-83b5-4bb9-8c4f-6e8e40d58f83" "35473e9c-2360-41c1-abf4-294e7049f4c5"
+			"3bceea6d-135d-4712-aa34-cf4b1876e45b" "51b59574-5fd8-44d5-8f34-af6eb2ccbcc0"
+			"52c91047-d80b-4868-bfaf-fa3ff68cfead" "5e3ef7bb-f6a8-49c8-80bc-5c8d62a78ef0"
+			"70f8005a-50dd-459b-9b56-3921faf8bf4b" "929a0a1a-e5a2-467f-b864-9f6855405fd2"
+			"952a8225-ab7f-498d-9336-eac434ca0341" "992ded6c-d623-4b55-861e-3ab5a1aa231a"
+			"a10919f0-8702-485e-a8bf-d7c59bcb975f" "a53e6952-b81c-406d-92aa-543968470cf9"
+			"ba818b7a-2b7d-4f3d-9786-97019ae79b6d" "c1f2fe95-492b-4442-9749-2eb788a09f53"
+			"d3adf1d4-dd70-48e6-ac57-117f570976cd" "da5801fb-09e0-49ac-a8d5-661183cdc414"
+			"e14a64b6-3ea4-48ab-81a0-7fc75f4748f7" "e613a310-3b0e-46ba-abd6-998bab6de8f1"
+			"e7a6c468-a8bc-406f-bee4-a5af4cb86d7c" "ef1aa122-f025-4ae6-ae97-47a17a8e6019"
+			"ef301680-19d7-474f-bf74-3fc8e51f66c9" "f4fb1949-33b5-4e9a-9576-823812b547f8"
 			"ff92f289-94ca-4c73-85aa-dc8415867bff"
 		)
 	)
