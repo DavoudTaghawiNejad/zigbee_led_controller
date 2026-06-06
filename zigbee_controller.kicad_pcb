@@ -23188,7 +23188,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Max voltage: 24V\nMin voltage: 5V\nMax total current: 32A -> 18C rise\n25A -> 10C rise\nIO20-IO23 voltage: supply voltage\nMax current per channel: 17A	\n3V3 max current 350mA. \n5V max current 600mA."
+	(gr_text "Max voltage: 24V\nMin voltage: 5V\nMax total current: 32A -> 18C rise\n25A -> 10C rise\nIO20-IO23 voltage: supply voltage\nMax current per channel: 17A	\n5V (on JST) max current 600mA.\n3V3 max current 350mA. "
 		(at 156 112.95 270)
 		(layer "B.SilkS")
 		(uuid "021dcf06-8fe4-418b-9016-1d33d137018e")
