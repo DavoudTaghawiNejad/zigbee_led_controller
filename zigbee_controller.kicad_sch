@@ -7165,6 +7165,12 @@
 		(uuid "e4628858-0e6e-4a69-a8b4-1ce264ece58b")
 	)
 	(junction
+		(at 278.13 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6afe8b7-f7b9-40f4-a463-b90e6d2b2a3a")
+	)
+	(junction
 		(at 262.89 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8334,7 +8340,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 30.48) (xy 278.13 31.75)
+			(xy 278.13 27.94) (xy 278.13 31.75)
 		)
 		(stroke
 			(width 0)
@@ -8521,6 +8527,16 @@
 			(type default)
 		)
 		(uuid "812d35eb-58f5-4543-abaf-65566837401e")
+	)
+	(wire
+		(pts
+			(xy 278.13 41.91) (xy 278.13 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8299bd85-feaa-4d3d-bb2e-4ff509165575")
 	)
 	(wire
 		(pts
@@ -13656,7 +13672,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 278.13 30.48 0)
+		(at 278.13 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13664,10 +13680,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "420ea88f-3697-4d8a-afa2-ee3acccea535")
 		(property "Reference" "#PWR043"
-			(at 278.13 34.29 0)
+			(at 278.13 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13678,7 +13693,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 280.67 29.2099 0)
+			(at 277.622 23.622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13689,7 +13704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 278.13 30.48 0)
+			(at 278.13 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13700,7 +13715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.13 30.48 0)
+			(at 278.13 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13711,7 +13726,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 278.13 30.48 0)
+			(at 278.13 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15923,6 +15938,98 @@
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 278.13 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d27ce54-c59e-468e-a10d-c86bed746ef9")
+		(property "Reference" "C11"
+			(at 282.702 32.512 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 282.702 35.052 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 279.0952 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 278.13 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "yes"
+			(at 278.13 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52b5f458-1dbd-4d59-a8d7-0367c53fe75c")
+		)
+		(pin "2"
+			(uuid "7855977c-601f-4694-ab8e-f1017c05493b")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -21831,6 +21938,84 @@
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.13 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb91f4d5-ac82-4d16-9f2c-13156ba84f77")
+		(property "Reference" "#PWR049"
+			(at 278.13 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.13 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 278.13 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bca48ac7-6300-40f7-b2ce-1e379bd7d79e")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
