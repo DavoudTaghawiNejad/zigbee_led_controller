@@ -62,6 +62,10 @@
       ],
       "drc_exclusions": [
         [
+          "courtyards_overlap|156053946|69283315|ea35baea-d67a-4b16-b7b2-7d3ee99a50f9|fdcb9bcf-9a77-407d-90e2-78170a7d1c5b",
+          "screw in keep out area"
+        ],
+        [
           "footprint_filters_mismatch|168780736|124422032|9aa94560-6a0f-4461-b593-c6465188b81f|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -82,19 +86,11 @@
           ""
         ],
         [
-          "silk_edge_clearance|203000000|70000000|cfba8127-89a0-4eed-bd20-80281090cc79|89ce0151-d87b-4123-bb2e-cc9348806127",
-          ""
-        ],
-        [
-          "silk_edge_clearance|208000000|74768210|cfba8127-89a0-4eed-bd20-80281090cc79|3056fa2e-c301-417c-9a6c-8b3abcbc2891",
-          ""
+          "npth_inside_courtyard|156500000|72500000|edc7d79e-8369-418f-a634-a77765ec0ad2|fdcb9bcf-9a77-407d-90e2-78170a7d1c5b",
+          "screw in keep out area"
         ],
         [
           "silk_over_copper|161064000|77360000|369097f1-a762-4da6-91ad-7ecd06ffa1f0|8b431e37-ee49-472e-918e-9c0d59144ecb",
-          ""
-        ],
-        [
-          "silk_over_copper|205500000|73500000|3056fa2e-c301-417c-9a6c-8b3abcbc2891|70ee2438-a089-4d48-9863-45dda2a2e0b6",
           ""
         ],
         [
@@ -853,7 +849,7 @@
         "uuid": "17b9f9ac-224d-422f-9c40-54a6770d01d0"
       }
     ],
-    "used_designators": "C10,#PWR49",
+    "used_designators": "H3,C10,#PWR49",
     "variants": []
   },
   "sheets": [
