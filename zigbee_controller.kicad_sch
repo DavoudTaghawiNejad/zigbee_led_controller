@@ -6841,6 +6841,12 @@
 		(uuid "2bc97ae7-69ad-4c7d-9cc8-ad58d78e6cd9")
 	)
 	(junction
+		(at 97.79 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30a65103-8850-4bb9-a8e1-7fe8c0b5cd5c")
+	)
+	(junction
 		(at 201.93 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6887,6 +6893,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d4e16e6-3d43-40db-8694-ba7849f79cab")
+	)
+	(junction
+		(at 34.29 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50d37747-9a36-423f-9de4-ae776a329d83")
 	)
 	(junction
 		(at 212.09 24.13)
@@ -6973,12 +6985,6 @@
 		(uuid "685840b3-369e-47bb-96df-8fd6549faba1")
 	)
 	(junction
-		(at 93.98 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d42bae0-c332-4f3c-85e6-5751c803f4fa")
-	)
-	(junction
 		(at 240.03 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6991,6 +6997,12 @@
 		(uuid "6e92e856-920a-4bf2-8954-570e3de59320")
 	)
 	(junction
+		(at 93.98 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73760cfe-a861-4952-b8ff-8415e443aeb9")
+	)
+	(junction
 		(at 255.27 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7001,12 +7013,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "789c737b-7736-425f-867e-d4ceb548fd59")
-	)
-	(junction
-		(at 91.44 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78cb1773-4776-4949-973d-0c10ff975984")
 	)
 	(junction
 		(at 323.85 173.99)
@@ -7039,22 +7045,16 @@
 		(uuid "8491a990-6203-4597-803e-20af2c74a4af")
 	)
 	(junction
-		(at 246.38 24.13)
+		(at 218.44 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "84b826c2-077d-41e1-a2e5-672f435af0aa")
+		(uuid "872ad424-7206-4a38-b08f-e32597d2f546")
 	)
 	(junction
 		(at 189.23 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8776b73e-43de-4eaf-bebf-97800657217d")
-	)
-	(junction
-		(at 248.92 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "882f0caa-d8c8-4d18-a0c7-a6fe64195eda")
 	)
 	(junction
 		(at 289.56 173.99)
@@ -7067,12 +7067,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b2931b2-c553-44aa-a694-ac1098a4fbfc")
-	)
-	(junction
-		(at 34.29 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f3a98c5-eb7f-4aa4-866e-26d5003d050e")
 	)
 	(junction
 		(at 326.39 161.29)
@@ -7093,10 +7087,22 @@
 		(uuid "99c0e348-72ea-429c-bee3-d71179e70b25")
 	)
 	(junction
+		(at 88.9 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cd4097f-5193-48a9-857e-0e19af8488af")
+	)
+	(junction
 		(at 58.42 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a964d306-fef7-4493-aeb0-a3ecff611ce2")
+	)
+	(junction
+		(at 218.44 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b04cffb4-138d-43a9-a135-ffc1116af487")
 	)
 	(junction
 		(at 309.88 148.59)
@@ -7258,26 +7264,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 22.86) (xy 246.38 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00da3b39-4ef1-4aba-80b7-364190b1a6e8")
-	)
-	(wire
-		(pts
-			(xy 91.44 43.18) (xy 107.95 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00ef8aa2-176f-4130-bbe9-788788138131")
-	)
-	(wire
-		(pts
 			(xy 115.57 121.92) (xy 115.57 123.19)
 		)
 		(stroke
@@ -7285,16 +7271,6 @@
 			(type default)
 		)
 		(uuid "02009c6d-3f92-4ed9-8343-ee60005c1876")
-	)
-	(wire
-		(pts
-			(xy 248.92 24.13) (xy 250.19 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0262e641-6792-4425-a24a-fceeba3b8906")
 	)
 	(wire
 		(pts
@@ -7458,6 +7434,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 43.18) (xy 97.79 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158e53cd-3d0e-438b-9e76-89a386c3995f")
+	)
+	(wire
+		(pts
 			(xy 217.17 124.46) (xy 217.17 125.73)
 		)
 		(stroke
@@ -7555,6 +7541,16 @@
 			(type default)
 		)
 		(uuid "1e8709f2-2d50-4330-a0d3-6cd1d280860f")
+	)
+	(wire
+		(pts
+			(xy 218.44 24.13) (xy 232.41 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "210c3189-36c5-4d06-8ad7-82e93a5230a2")
 	)
 	(wire
 		(pts
@@ -7828,16 +7824,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 24.13) (xy 248.92 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b47b62a-c677-4bb6-94d6-f6b295054d37")
-	)
-	(wire
-		(pts
 			(xy 200.66 162.56) (xy 200.66 165.1)
 		)
 		(stroke
@@ -7858,7 +7844,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 41.91) (xy 93.98 43.18)
+			(xy 88.9 41.91) (xy 88.9 43.18)
 		)
 		(stroke
 			(width 0)
@@ -8028,6 +8014,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 43.18) (xy 107.95 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "511f7690-b1f8-4520-bb32-7a385d0c6190")
+	)
+	(wire
+		(pts
 			(xy 232.41 175.26) (xy 232.41 160.02)
 		)
 		(stroke
@@ -8158,6 +8154,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 24.13) (xy 218.44 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "605d1be2-73d5-4d45-8969-e3ff77dd6d6e")
+	)
+	(wire
+		(pts
 			(xy 41.91 101.6) (xy 58.42 101.6)
 		)
 		(stroke
@@ -8178,7 +8184,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 43.18) (xy 91.44 43.18)
+			(xy 88.9 43.18) (xy 93.98 43.18)
 		)
 		(stroke
 			(width 0)
@@ -8288,7 +8294,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 24.13) (xy 238.76 24.13)
+			(xy 236.22 24.13) (xy 250.19 24.13)
 		)
 		(stroke
 			(width 0)
@@ -8918,7 +8924,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 92.71) (xy 34.29 93.98)
+			(xy 34.29 91.44) (xy 34.29 92.71)
 		)
 		(stroke
 			(width 0)
@@ -8995,6 +9001,16 @@
 			(type default)
 		)
 		(uuid "a6f21944-12dc-4159-bb96-2609a6ca34ea")
+	)
+	(wire
+		(pts
+			(xy 97.79 40.64) (xy 97.79 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f607ad-898c-4930-a3cc-e4a23e92e52d")
 	)
 	(wire
 		(pts
@@ -9098,7 +9114,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 41.91) (xy 91.44 43.18)
+			(xy 93.98 40.64) (xy 93.98 43.18)
 		)
 		(stroke
 			(width 0)
@@ -9115,16 +9131,6 @@
 			(type default)
 		)
 		(uuid "af322ae1-53e4-4754-80dd-0bc0e4337b64")
-	)
-	(wire
-		(pts
-			(xy 248.92 22.86) (xy 248.92 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af55ce47-5336-422a-ac1e-a5eae792d1b0")
 	)
 	(wire
 		(pts
@@ -9168,6 +9174,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 43.18) (xy 229.87 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b8a64c-a610-46ef-a615-12c40127fb40")
+	)
+	(wire
+		(pts
 			(xy 295.91 138.43) (xy 309.88 138.43)
 		)
 		(stroke
@@ -9185,6 +9201,16 @@
 			(type default)
 		)
 		(uuid "b3d96a9a-2ec9-45d8-9341-9ca9cbf660ff")
+	)
+	(wire
+		(pts
+			(xy 218.44 36.83) (xy 218.44 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c729c1-3d72-4640-9211-07839991becd")
 	)
 	(wire
 		(pts
@@ -9278,7 +9304,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 43.18) (xy 229.87 43.18)
+			(xy 212.09 43.18) (xy 218.44 43.18)
 		)
 		(stroke
 			(width 0)
@@ -9568,7 +9594,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 24.13) (xy 232.41 24.13)
+			(xy 212.09 24.13) (xy 218.44 24.13)
 		)
 		(stroke
 			(width 0)
@@ -9795,6 +9821,16 @@
 			(type default)
 		)
 		(uuid "e7a6c468-a8bc-406f-bee4-a5af4cb86d7c")
+	)
+	(wire
+		(pts
+			(xy 34.29 100.33) (xy 34.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8fda28-56ae-4faa-8bc4-9d48022beb07")
 	)
 	(wire
 		(pts
@@ -10564,84 +10600,6 @@
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VD")
-		(at 248.92 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "05fb87c3-ccf1-4722-a96d-99633f6d65e6")
-		(property "Reference" "#PWR045"
-			(at 248.92 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_5V"
-			(at 249.682 19.558 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 248.92 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d55e751-9d32-4836-8c7f-7377e7acb81a")
-		)
-		(instances
-			(project "zigbee_controller"
-				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -11423,7 +11381,7 @@
 		(dnp no)
 		(uuid "19096a07-ad12-485f-87e6-b9d4b83f6f28")
 		(property "Reference" "C9"
-			(at 204.47 27.94 0)
+			(at 206.756 27.686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11433,8 +11391,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47μF"
-			(at 204.47 30.48 0)
+		(property "Value" "22μF"
+			(at 206.756 30.226 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12652,7 +12610,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 34.29 92.71 0)
+		(at 34.29 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12663,7 +12621,7 @@
 		(fields_autoplaced yes)
 		(uuid "3625ee7f-b438-45de-9298-79e6494deca1")
 		(property "Reference" "#PWR038"
-			(at 34.29 96.52 0)
+			(at 34.29 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12674,7 +12632,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 34.29 87.63 0)
+			(at 34.29 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12684,7 +12642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 92.71 0)
+			(at 34.29 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12695,7 +12653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 92.71 0)
+			(at 34.29 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12706,7 +12664,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 34.29 92.71 0)
+			(at 34.29 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15007,7 +14965,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_5V"
+		(property "Value" "USB"
 			(at 16.002 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15716,7 +15674,7 @@
 				)
 			)
 		)
-		(property "Value" "power via terminal"
+		(property "Value" "Terminal power"
 			(at 22.098 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15787,7 +15745,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 34.29 97.79 0)
+		(at 34.29 96.52 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -15798,7 +15756,7 @@
 		(dnp no)
 		(uuid "69c678d0-ebc5-4bc3-9ca1-5f30a17a0afe")
 		(property "Reference" "R21"
-			(at 35.56 99.06 0)
+			(at 35.56 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15809,7 +15767,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 35.56 96.52 0)
+			(at 35.56 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15820,7 +15778,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 36.068 97.79 90)
+			(at 36.068 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15831,7 +15789,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 97.79 0)
+			(at 34.29 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15842,7 +15800,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 34.29 97.79 0)
+			(at 34.29 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15853,7 +15811,7 @@
 			)
 		)
 		(property "in_stock" "yes"
-			(at 34.29 97.79 0)
+			(at 34.29 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17321,7 +17279,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 93.98 41.91 0)
+		(at 88.9 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17331,7 +17289,7 @@
 		(dnp no)
 		(uuid "851058d4-472c-402e-b18c-b4e9a9134c31")
 		(property "Reference" "#FLG01"
-			(at 93.98 40.005 0)
+			(at 88.9 40.005 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17342,7 +17300,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 97.028 37.084 0)
+			(at 82.296 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17352,7 +17310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 41.91 0)
+			(at 88.9 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17363,7 +17321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 41.91 0)
+			(at 88.9 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17374,7 +17332,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 93.98 41.91 0)
+			(at 88.9 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17563,83 +17521,6 @@
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 246.38 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8c45833f-99e1-42f0-b94b-5a2bb4df1112")
-		(property "Reference" "#FLG05"
-			(at 246.38 20.955 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 244.602 27.686 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 246.38 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9900670f-9712-47a8-ab62-9272f8070d76")
-		)
-		(instances
-			(project "zigbee_controller"
-				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
-					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -19970,97 +19851,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SS36")
-		(at 242.57 24.13 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9fcee53-5f1c-4f57-ab8c-29285c2a7d8b")
-		(property "Reference" "D9"
-			(at 242.8875 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS36"
-			(at 242.8875 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 242.57 19.685 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 242.57 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "60V 3A Schottky Diode, SMA"
-			(at 242.57 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "in_stock" "ordered-100"
-			(at 242.57 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "21d68226-b2fa-42f6-9665-529462f35bd4")
-		)
-		(pin "1"
-			(uuid "9bd3df2f-d8c8-4429-adfa-e60feee408f9")
-		)
-		(instances
-			(project "zigbee_controller"
-				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 232.41 22.86 0)
 		(unit 1)
@@ -20852,6 +20642,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VD")
+		(at 97.79 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7cac500-736a-4a62-b928-24ec24a8a04e")
+		(property "Reference" "#PWR045"
+			(at 97.79 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB"
+			(at 97.79 35.052 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 97.79 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0f3b4bf-4771-43b9-b8ff-f94f2d659c9b")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 40.64 25.4 270)
 		(unit 1)
@@ -21312,8 +21180,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 91.44 41.91 0)
+		(lib_id "Device:C")
+		(at 218.44 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21321,31 +21189,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef082814-777d-4026-9888-3e4118f29c59")
-		(property "Reference" "#PWR02"
-			(at 91.44 45.72 0)
-			(hide yes)
+		(uuid "eeca4bd2-dd1e-436d-b4d5-a894c58b678e")
+		(property "Reference" "C10"
+			(at 220.726 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+24V"
-			(at 91.44 36.83 0)
+		(property "Value" "22μF"
+			(at 220.726 30.734 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 91.44 41.91 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 219.4052 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21356,7 +21224,98 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 41.91 0)
+			(at 218.44 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 218.44 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "yes"
+			(at 218.44 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2fa199b9-6abb-4152-ab6f-d53c20a7ce3f")
+		)
+		(pin "1"
+			(uuid "53f6bda8-33ff-4e83-8da3-557413c1c6ad")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 93.98 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef082814-777d-4026-9888-3e4118f29c59")
+		(property "Reference" "#PWR02"
+			(at 93.98 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 93.98 35.052 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21367,7 +21326,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 91.44 41.91 0)
+			(at 93.98 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22162,29 +22121,6 @@
 			"ef1aa122-f025-4ae6-ae97-47a17a8e6019" "ef301680-19d7-474f-bf74-3fc8e51f66c9"
 			"f4fb1949-33b5-4e9a-9576-823812b547f8" "f9f52629-f02c-496a-9fb4-553296853981"
 			"ff92f289-94ca-4c73-85aa-dc8415867bff"
-		)
-	)
-	(group ""
-		(uuid "ecd70a1b-e04c-47d8-9731-b301b03d2166")
-		(members "00da3b39-4ef1-4aba-80b7-364190b1a6e8" "00ef8aa2-176f-4130-bbe9-788788138131"
-			"0262e641-6792-4425-a24a-fceeba3b8906" "05fb87c3-ccf1-4722-a96d-99633f6d65e6"
-			"0eb9c8d2-0569-4524-85d3-17b59ee69414" "18754943-5421-4fdb-be65-257afffeedd0"
-			"1bbe0273-0333-467f-9379-59c3405f098c" "2959163a-37e9-409b-8d3f-509ba5747b44"
-			"2efaed69-2d42-4dee-9f3f-3fea7a7df62c" "39794c0d-c614-4c12-b4e9-afef67cc0e59"
-			"3b47b62a-c677-4bb6-94d6-f6b295054d37" "420ea88f-3697-4d8a-afa2-ee3acccea535"
-			"4a3d4c23-13a4-4a99-8a40-80803c25f825" "4b51df57-7cf3-4fca-81e2-88b63b68140a"
-			"4dff573d-47e0-4d1d-938e-dc7dbbd13157" "5aadb67e-22c8-47bd-810a-50b58a4ab8ea"
-			"60f5a982-3ea6-4a9a-a2ee-8ff50f0f1325" "614c3105-482c-4773-9716-a01b476ea010"
-			"616f3177-b9b0-44bb-a30f-a246a3a9ad18" "6961208c-4c8d-47ba-8aef-5758be995554"
-			"6f50e52f-ab18-474b-a836-6d61ad0b473e" "75c08fee-a2d6-4876-a50b-f870829a616c"
-			"78cb1773-4776-4949-973d-0c10ff975984" "830d1aea-b641-440a-b641-e53bebe01be5"
-			"84b826c2-077d-41e1-a2e5-672f435af0aa" "882f0caa-d8c8-4d18-a0c7-a6fe64195eda"
-			"8c45833f-99e1-42f0-b94b-5a2bb4df1112" "8e6a162b-9440-40f5-85a4-b42bca9eed8c"
-			"910ff9a4-1464-4341-99f2-99f5d817bce7" "9e394114-93d8-40d3-b1c7-2b18a6cc94fb"
-			"af228157-85fd-491d-9faa-b9891f82ebf8" "af55ce47-5336-422a-ac1e-a5eae792d1b0"
-			"c9fcee53-5f1c-4f57-ab8c-29285c2a7d8b" "cedb700e-ce45-4550-8736-38e06270c4d1"
-			"ef082814-777d-4026-9888-3e4118f29c59" "f0fcb67a-0144-41cd-988c-b2e58f9f939c"
-			"fbae27d0-c422-40a7-9ed1-2a369ae1fdf4"
 		)
 	)
 	(sheet_instances
