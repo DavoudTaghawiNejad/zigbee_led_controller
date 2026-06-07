@@ -2535,6 +2535,158 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L_Iron"
 			(pin_numbers
 				(hide yes)
@@ -2877,7 +3029,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SS36"
+		(symbol "Diode:SS14"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2900,7 +3052,7 @@
 					)
 				)
 			)
-			(property "Value" "SS36"
+			(property "Value" "SS14"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2921,7 +3073,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2932,7 +3084,7 @@
 					)
 				)
 			)
-			(property "Description" "60V 3A Schottky Diode, SMA"
+			(property "Description" "40V 1A Schottky Diode, SMA"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2965,7 +3117,7 @@
 					)
 				)
 			)
-			(symbol "SS36_0_1"
+			(symbol "SS14_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -3003,7 +3155,7 @@
 					)
 				)
 			)
-			(symbol "SS36_1_1"
+			(symbol "SS14_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -6751,16 +6903,16 @@
 		)
 	)
 	(junction
+		(at 107.95 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "039a7737-b5a2-454e-95c2-a72daaa9682d")
+	)
+	(junction
 		(at 271.78 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0652dc69-6021-430c-976c-f57ea4ead006")
-	)
-	(junction
-		(at 41.91 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b758403-86d6-4539-ab52-123df2d3793c")
 	)
 	(junction
 		(at 237.49 175.26)
@@ -6835,16 +6987,16 @@
 		(uuid "24a12342-54ee-488d-8e8d-08e3c9fcd9c3")
 	)
 	(junction
-		(at 33.02 31.75)
+		(at 93.98 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2bc97ae7-69ad-4c7d-9cc8-ad58d78e6cd9")
+		(uuid "2f7d3ff2-f5a8-4036-9f9a-62cc47c8ba74")
 	)
 	(junction
-		(at 97.79 43.18)
+		(at 88.9 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "30a65103-8850-4bb9-a8e1-7fe8c0b5cd5c")
+		(uuid "3073b881-66b9-425b-ae23-c35b59f47b59")
 	)
 	(junction
 		(at 201.93 24.13)
@@ -6985,16 +7137,10 @@
 		(uuid "6e806d42-f492-48de-896f-32f5a2dc52d8")
 	)
 	(junction
-		(at 38.1 20.32)
+		(at 17.78 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e92e856-920a-4bf2-8954-570e3de59320")
-	)
-	(junction
-		(at 93.98 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73760cfe-a861-4952-b8ff-8415e443aeb9")
 	)
 	(junction
 		(at 255.27 24.13)
@@ -7057,10 +7203,10 @@
 		(uuid "8ac90547-e8fc-43af-8f1a-9b5a429b131e")
 	)
 	(junction
-		(at 107.95 43.18)
+		(at 27.94 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8b2931b2-c553-44aa-a694-ac1098a4fbfc")
+		(uuid "92195915-95fb-4f2c-8b40-a5a7af8bd004")
 	)
 	(junction
 		(at 326.39 161.29)
@@ -7075,22 +7221,16 @@
 		(uuid "9623de91-7b11-456b-968f-fa21f42321d1")
 	)
 	(junction
-		(at 38.1 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99c0e348-72ea-429c-bee3-d71179e70b25")
-	)
-	(junction
-		(at 88.9 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9cd4097f-5193-48a9-857e-0e19af8488af")
-	)
-	(junction
 		(at 29.21 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a10919f0-8702-485e-a8bf-d7c59bcb975f")
+	)
+	(junction
+		(at 38.1 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a628f925-19bf-495f-b876-1f2600827ab7")
 	)
 	(junction
 		(at 58.42 101.6)
@@ -7103,6 +7243,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b04cffb4-138d-43a9-a135-ffc1116af487")
+	)
+	(junction
+		(at 41.91 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4000b9e-d274-443b-84ce-9b2e57951316")
 	)
 	(junction
 		(at 309.88 148.59)
@@ -7123,10 +7269,10 @@
 		(uuid "c6ed1f99-6d71-4aaa-9778-fde5c6f533a3")
 	)
 	(junction
-		(at 38.1 30.48)
+		(at 105.41 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c97a1de9-d009-43f3-acce-93bc89931dc9")
+		(uuid "c9be45d2-9aea-42be-84b9-e46da01195d3")
 	)
 	(junction
 		(at 138.43 120.65)
@@ -7320,6 +7466,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 40.64) (xy 105.41 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0599e956-e315-41aa-b3f2-1b20a36fc12b")
+	)
+	(wire
+		(pts
 			(xy 55.88 120.65) (xy 63.5 120.65)
 		)
 		(stroke
@@ -7367,16 +7523,6 @@
 			(type default)
 		)
 		(uuid "0cb81708-3309-44e1-bc4c-f4874eb2cbc2")
-	)
-	(wire
-		(pts
-			(xy 25.4 31.75) (xy 24.13 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d4f3b68-cbaf-4c61-a017-2f6fdaca5c1b")
 	)
 	(wire
 		(pts
@@ -7440,13 +7586,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 43.18) (xy 97.79 43.18)
+			(xy 105.41 43.18) (xy 107.95 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "158e53cd-3d0e-438b-9e76-89a386c3995f")
+		(uuid "156726bb-5c37-40e2-bac3-2d8a6bdfc490")
 	)
 	(wire
 		(pts
@@ -7680,6 +7826,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 33.02) (xy 93.98 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29923f87-545d-46b8-81a8-7c5797ced8f5")
+	)
+	(wire
+		(pts
 			(xy 377.19 87.63) (xy 377.19 88.9)
 		)
 		(stroke
@@ -7760,16 +7916,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 30.48) (xy 38.1 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35a47e22-47bc-4a2e-9699-a08d3843dce0")
-	)
-	(wire
-		(pts
 			(xy 199.39 24.13) (xy 201.93 24.13)
 		)
 		(stroke
@@ -7800,6 +7946,16 @@
 	)
 	(wire
 		(pts
+			(xy 13.97 30.48) (xy 13.97 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384924ce-7e23-42d2-b92b-01917b438baa")
+	)
+	(wire
+		(pts
 			(xy 189.23 77.47) (xy 189.23 74.93)
 		)
 		(stroke
@@ -7807,6 +7963,16 @@
 			(type default)
 		)
 		(uuid "384b1297-83f2-4b23-8f65-e5db52936702")
+	)
+	(wire
+		(pts
+			(xy 97.79 43.18) (xy 93.98 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "385a468f-b149-461c-af4c-0ba7c310c7a7")
 	)
 	(wire
 		(pts
@@ -7837,16 +8003,6 @@
 			(type default)
 		)
 		(uuid "3c2efa93-689d-4dde-9968-9aa3ec2f9ab0")
-	)
-	(wire
-		(pts
-			(xy 88.9 41.91) (xy 88.9 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c429a5c-1f8c-4958-9085-dbb5334cb8ab")
 	)
 	(wire
 		(pts
@@ -7890,16 +8046,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 31.75) (xy 38.1 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4558ad6a-56c0-4dfb-9f62-87692d2737fe")
-	)
-	(wire
-		(pts
 			(xy 138.43 109.22) (xy 138.43 120.65)
 		)
 		(stroke
@@ -7937,16 +8083,6 @@
 			(type default)
 		)
 		(uuid "49353763-dda1-4e7e-b509-1bd0238cd98e")
-	)
-	(wire
-		(pts
-			(xy 13.97 31.75) (xy 15.24 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a189467-1c23-49af-a50c-189704ace43e")
 	)
 	(wire
 		(pts
@@ -8010,16 +8146,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 43.18) (xy 107.95 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "511f7690-b1f8-4520-bb32-7a385d0c6190")
-	)
-	(wire
-		(pts
 			(xy 232.41 175.26) (xy 232.41 160.02)
 		)
 		(stroke
@@ -8037,6 +8163,16 @@
 			(type default)
 		)
 		(uuid "51b59574-5fd8-44d5-8f34-af6eb2ccbcc0")
+	)
+	(wire
+		(pts
+			(xy 13.97 31.75) (xy 17.78 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51d91d56-2db2-46aa-ab35-c7eff5a67821")
 	)
 	(wire
 		(pts
@@ -8087,6 +8223,16 @@
 			(type default)
 		)
 		(uuid "569e6dce-6026-4763-a74a-dcc46136b920")
+	)
+	(wire
+		(pts
+			(xy 36.83 31.75) (xy 38.1 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57d2e7c5-2e4d-4098-86b5-16c63eb78bef")
 	)
 	(wire
 		(pts
@@ -8190,16 +8336,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 43.18) (xy 93.98 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "614c3105-482c-4773-9716-a01b476ea010")
-	)
-	(wire
-		(pts
 			(xy 118.11 139.7) (xy 123.19 139.7)
 		)
 		(stroke
@@ -8277,6 +8413,16 @@
 			(type default)
 		)
 		(uuid "6961208c-4c8d-47ba-8aef-5758be995554")
+	)
+	(wire
+		(pts
+			(xy 107.95 43.18) (xy 118.11 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699dbdff-b812-4b03-9c92-61ccfaa7af05")
 	)
 	(wire
 		(pts
@@ -8600,16 +8746,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 17.78) (xy 38.1 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "865e03f2-190d-4b76-8705-7fee38a06ae8")
-	)
-	(wire
-		(pts
 			(xy 118.11 147.32) (xy 123.19 147.32)
 		)
 		(stroke
@@ -8670,16 +8806,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 31.75) (xy 38.1 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d1ee61d-84f4-418f-978d-a3a88d565827")
-	)
-	(wire
-		(pts
 			(xy 198.12 175.26) (xy 203.2 175.26)
 		)
 		(stroke
@@ -8710,7 +8836,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 46.99) (xy 88.9 43.18)
+			(xy 88.9 41.91) (xy 88.9 43.18)
 		)
 		(stroke
 			(width 0)
@@ -8810,13 +8936,23 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 43.18) (xy 88.9 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ecb5c3-ca9a-4cb1-ae56-923dbc723152")
+	)
+	(wire
+		(pts
 			(xy 38.1 31.75) (xy 41.91 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98652452-3013-4fcf-af37-da6b63495e2c")
+		(uuid "98666e41-a0cf-4c98-bd3d-9ca102db738e")
 	)
 	(wire
 		(pts
@@ -9030,16 +9166,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 40.64) (xy 97.79 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6f607ad-898c-4930-a3cc-e4a23e92e52d")
-	)
-	(wire
-		(pts
 			(xy 140.97 120.65) (xy 138.43 120.65)
 		)
 		(stroke
@@ -9140,17 +9266,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 40.64) (xy 93.98 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af228157-85fd-491d-9faa-b9891f82ebf8")
-	)
-	(wire
-		(pts
-			(xy 35.56 20.32) (xy 38.1 20.32)
+			(xy 17.78 34.29) (xy 17.78 31.75)
 		)
 		(stroke
 			(width 0)
@@ -9190,7 +9306,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 30.48) (xy 40.64 30.48)
+			(xy 27.94 29.21) (xy 27.94 31.75)
 		)
 		(stroke
 			(width 0)
@@ -9227,6 +9343,16 @@
 			(type default)
 		)
 		(uuid "b3d96a9a-2ec9-45d8-9341-9ca9cbf660ff")
+	)
+	(wire
+		(pts
+			(xy 93.98 43.18) (xy 88.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b441fb22-5914-4449-9f39-fa85d6eea28e")
 	)
 	(wire
 		(pts
@@ -9267,16 +9393,6 @@
 			(type default)
 		)
 		(uuid "b6c3087c-3fde-4de8-a6d9-00485f64e6c7")
-	)
-	(wire
-		(pts
-			(xy 13.97 31.75) (xy 13.97 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b81d74c8-9776-4da9-9e66-6793b42cb032")
 	)
 	(wire
 		(pts
@@ -9370,7 +9486,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 30.48) (xy 33.02 31.75)
+			(xy 38.1 30.48) (xy 38.1 31.75)
 		)
 		(stroke
 			(width 0)
@@ -9700,6 +9816,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 31.75) (xy 27.94 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc90d4f7-117c-4dae-bd99-ede235f2179c")
+	)
+	(wire
+		(pts
 			(xy 367.03 72.39) (xy 370.84 72.39)
 		)
 		(stroke
@@ -9800,16 +9926,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 43.18) (xy 118.11 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e35ee571-f46b-4b87-a1c3-0a3f2f9596a3")
-	)
-	(wire
-		(pts
 			(xy 21.59 60.96) (xy 21.59 63.5)
 		)
 		(stroke
@@ -9820,7 +9936,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 20.32) (xy 40.64 20.32)
+			(xy 17.78 31.75) (xy 17.78 29.21)
 		)
 		(stroke
 			(width 0)
@@ -9837,6 +9953,16 @@
 			(type default)
 		)
 		(uuid "e753c622-78d9-4a3a-97b3-81128e94807e")
+	)
+	(wire
+		(pts
+			(xy 27.94 31.75) (xy 27.94 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e75f1b18-b303-4228-961b-31961ba37f0b")
 	)
 	(wire
 		(pts
@@ -9957,16 +10083,6 @@
 			(type default)
 		)
 		(uuid "ef301680-19d7-474f-bf74-3fc8e51f66c9")
-	)
-	(wire
-		(pts
-			(xy 31.75 31.75) (xy 33.02 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1bb8f62-ab27-4cb6-83ae-a6c89c0202f5")
 	)
 	(wire
 		(pts
@@ -10703,7 +10819,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 38.1 17.78 0)
+		(at 13.97 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10713,7 +10829,7 @@
 		(dnp no)
 		(uuid "076dd5e4-fd6d-418a-b614-eb2c79ad9e92")
 		(property "Reference" "#PWR011"
-			(at 38.1 21.59 0)
+			(at 13.97 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10724,7 +10840,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 38.1 14.224 0)
+			(at 15.24 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10734,7 +10850,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 17.78 0)
+			(at 13.97 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10745,7 +10861,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 17.78 0)
+			(at 13.97 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10756,7 +10872,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 38.1 17.78 0)
+			(at 13.97 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10947,7 +11063,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 38.1 25.4 270)
+		(at 22.86 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10957,7 +11073,7 @@
 		(dnp no)
 		(uuid "0cdaac94-1b38-4c3a-a27b-8da4186e9f90")
 		(property "Reference" "JP9"
-			(at 37.338 20.066 0)
+			(at 17.526 32.512 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10967,7 +11083,7 @@
 			)
 		)
 		(property "Value" "power_via_usb"
-			(at 43.688 22.098 0)
+			(at 19.558 26.162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10977,7 +11093,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 38.1 25.4 0)
+			(at 22.86 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10988,7 +11104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 25.4 0)
+			(at 22.86 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10999,7 +11115,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 33.02 25.4 0)
+			(at 22.86 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11010,7 +11126,7 @@
 			)
 		)
 		(property "in_stock" "-"
-			(at 38.1 25.4 0)
+			(at 22.86 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14959,83 +15075,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VD")
-		(at 13.97 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "57d666ac-da57-4671-a54d-580e7dfff892")
-		(property "Reference" "#PWR044"
-			(at 13.97 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB"
-			(at 16.002 26.416 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 13.97 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 13.97 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 13.97 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "db4fc77b-03a7-4813-99f0-d0001c69e54d")
-		)
-		(instances
-			(project "zigbee_controller"
-				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky_Dual_CommonCathode_AKA_Parallel")
 		(at 287.02 168.91 90)
 		(unit 1)
@@ -15663,96 +15702,6 @@
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 20.32 31.75 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "68d21dad-6e96-433e-9c92-062b555ea99c")
-		(property "Reference" "JP8"
-			(at 19.304 28.956 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Terminal power"
-			(at 22.098 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 20.32 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 20.32 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "in_stock" "-"
-			(at 20.32 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4f445b96-dd15-4b1d-902b-7de784e67352")
-		)
-		(pin "1"
-			(uuid "12182ae1-c1c2-4969-b874-7ff60bb1e3be")
-		)
-		(instances
-			(project "zigbee_controller"
-				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
-					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -17639,6 +17588,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SS14")
+		(at 105.41 36.83 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8a79611b-f7e2-4540-aee1-2b6060189e20")
+		(property "Reference" "D10"
+			(at 110.744 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS14"
+			(at 108.204 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 109.855 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 105.41 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 105.41 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "249df937-1944-4c1a-8579-b0d22868db61")
+		)
+		(pin "1"
+			(uuid "d8b512bc-6cb2-4a38-896a-1942a83e739f")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 217.17 129.54 0)
 		(unit 1)
@@ -18584,7 +18614,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 35.56 25.4 270)
+		(at 22.86 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18594,7 +18624,7 @@
 		(dnp no)
 		(uuid "9e140adf-9654-45d2-a2ba-f77690002d8c")
 		(property "Reference" "JP10"
-			(at 34.798 20.066 0)
+			(at 17.526 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18604,7 +18634,7 @@
 			)
 		)
 		(property "Value" "power_via_usb"
-			(at 43.688 22.098 0)
+			(at 19.558 26.162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18614,7 +18644,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 35.56 25.4 0)
+			(at 22.86 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18625,7 +18655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 25.4 0)
+			(at 22.86 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18636,7 +18666,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 30.48 25.4 0)
+			(at 22.86 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18647,7 +18677,7 @@
 			)
 		)
 		(property "in_stock" "-"
-			(at 35.56 25.4 0)
+			(at 22.86 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19099,7 +19129,7 @@
 	)
 	(symbol
 		(lib_id "power:+4V")
-		(at 33.02 30.48 0)
+		(at 38.1 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19109,7 +19139,7 @@
 		(dnp no)
 		(uuid "b43cc44d-1624-44d6-b5a3-33a60a5e4bdc")
 		(property "Reference" "#PWR046"
-			(at 33.02 34.29 0)
+			(at 38.1 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19120,7 +19150,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 30.988 26.416 0)
+			(at 36.068 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19130,7 +19160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 30.48 0)
+			(at 38.1 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19141,7 +19171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 30.48 0)
+			(at 38.1 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19152,7 +19182,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+4V\""
-			(at 33.02 30.48 0)
+			(at 38.1 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20045,6 +20075,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 33.02 31.75 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce3ec612-9652-454b-befb-e65dd009da2a")
+		(property "Reference" "F1"
+			(at 33.02 25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 33.02 27.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 33.02 29.972 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 33.02 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d378802d-7e47-4fa5-85b7-91a4bbace15b")
+		)
+		(pin "1"
+			(uuid "2e9f593f-883a-41aa-9097-6014b48c6774")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 232.41 22.86 0)
 		(unit 1)
@@ -20837,7 +20947,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VD")
-		(at 97.79 40.64 0)
+		(at 105.41 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20847,7 +20957,7 @@
 		(dnp no)
 		(uuid "e7cac500-736a-4a62-b928-24ec24a8a04e")
 		(property "Reference" "#PWR045"
-			(at 97.79 44.45 0)
+			(at 105.41 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20857,8 +20967,8 @@
 				)
 			)
 		)
-		(property "Value" "USB"
-			(at 97.79 35.052 0)
+		(property "Value" "VBUS"
+			(at 105.41 27.432 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20869,7 +20979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 40.64 0)
+			(at 105.41 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20880,7 +20990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 40.64 0)
+			(at 105.41 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20891,7 +21001,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 97.79 40.64 0)
+			(at 105.41 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20915,7 +21025,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 40.64 25.4 270)
+		(at 22.86 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20925,7 +21035,7 @@
 		(dnp no)
 		(uuid "e7e81484-9cde-42d1-9f9b-dc4333ad8454")
 		(property "Reference" "JP7"
-			(at 39.878 20.066 0)
+			(at 17.526 29.972 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20935,7 +21045,7 @@
 			)
 		)
 		(property "Value" "power_via_usb"
-			(at 43.688 22.098 0)
+			(at 19.558 26.162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20945,7 +21055,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 40.64 25.4 0)
+			(at 22.86 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20956,7 +21066,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 25.4 0)
+			(at 22.86 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20967,7 +21077,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 35.56 25.4 0)
+			(at 22.86 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20978,7 +21088,7 @@
 			)
 		)
 		(property "in_stock" "-"
-			(at 40.64 25.4 0)
+			(at 22.86 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20998,97 +21108,6 @@
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "JP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SS36")
-		(at 27.94 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e80946dc-cb1c-4044-9151-1b37e67ecc31")
-		(property "Reference" "D8"
-			(at 27.6225 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS36"
-			(at 27.6225 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 27.94 36.195 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 27.94 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "60V 3A Schottky Diode, SMA"
-			(at 27.94 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "in_stock" "ordered-100"
-			(at 27.94 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "61f2b2e6-d686-4fc2-a20d-5af2075bea70")
-		)
-		(pin "1"
-			(uuid "bf2b03ba-2554-4112-8d11-2e1974c09499")
-		)
-		(instances
-			(project "zigbee_controller"
-				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
-					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -21260,6 +21279,87 @@
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS14")
+		(at 101.6 43.18 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ebf0d81d-d2e0-48b2-9bb5-04f1f129b707")
+		(property "Reference" "D9"
+			(at 97.79 37.846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS14"
+			(at 97.79 40.386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 101.6 38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 101.6 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 101.6 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3b83b149-23d0-488f-bbed-e066ea9986f4")
+		)
+		(pin "1"
+			(uuid "c74cf617-dabe-41c5-a616-4107d6fbad6c")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -21467,7 +21567,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 93.98 40.64 0)
+		(at 93.98 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21477,7 +21577,7 @@
 		(dnp no)
 		(uuid "ef082814-777d-4026-9888-3e4118f29c59")
 		(property "Reference" "#PWR02"
-			(at 93.98 44.45 0)
+			(at 93.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21488,7 +21588,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 93.98 35.052 0)
+			(at 93.98 27.432 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21498,7 +21598,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 40.64 0)
+			(at 93.98 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21509,7 +21609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 40.64 0)
+			(at 93.98 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21520,7 +21620,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 93.98 40.64 0)
+			(at 93.98 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
