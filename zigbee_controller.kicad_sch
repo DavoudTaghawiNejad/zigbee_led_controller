@@ -7340,6 +7340,12 @@
 		(uuid "d0d73eb5-8bb2-4198-b549-99e84b1bc89c")
 	)
 	(junction
+		(at 48.26 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d19fbbc1-99cd-4a15-9c57-4d0631d8aa4e")
+	)
+	(junction
 		(at 287.02 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8523,7 +8529,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 27.94) (xy 50.8 27.94)
+			(xy 46.99 27.94) (xy 48.26 27.94)
 		)
 		(stroke
 			(width 0)
@@ -10180,6 +10186,16 @@
 			(type default)
 		)
 		(uuid "e0f11c1f-05ca-4f25-ae1c-985b4e195b29")
+	)
+	(wire
+		(pts
+			(xy 48.26 27.94) (xy 50.8 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f5e092-9748-4da8-9172-ba50b6b0d6a2")
 	)
 	(wire
 		(pts
@@ -20512,6 +20528,83 @@
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 48.26 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bd676b59-76f3-4187-bfe3-89f468eb9dc8")
+		(property "Reference" "#FLG05"
+			(at 48.26 26.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 49.784 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 48.26 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "693483c4-89f1-4e8d-ae31-3ea298cc8ffe")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
