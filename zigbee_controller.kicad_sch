@@ -1518,7 +1518,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x07"
+		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1538,8 +1538,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x07"
-				(at 0 -10.16 0)
+			(property "Value" "Conn_01x08"
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1570,7 +1570,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1603,10 +1603,10 @@
 					)
 				)
 			)
-			(symbol "Conn_01x07_1_1"
+			(symbol "Conn_01x08_1_1"
 				(rectangle
 					(start -1.27 8.89)
-					(end 1.27 -8.89)
+					(end 1.27 -11.43)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1684,6 +1684,17 @@
 				(rectangle
 					(start -1.27 -7.493)
 					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1811,6 +1822,24 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7101,6 +7130,12 @@
 		(uuid "58c30a7e-c0e5-4b75-a3b7-836b3e6cbdd3")
 	)
 	(junction
+		(at 295.91 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59bea10c-e438-4ee2-9b18-d5d7db8e11af")
+	)
+	(junction
 		(at 55.88 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7167,6 +7202,12 @@
 		(uuid "789c737b-7736-425f-867e-d4ceb548fd59")
 	)
 	(junction
+		(at 360.68 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79017e43-6334-44b2-915b-b3bbab50dd78")
+	)
+	(junction
 		(at 323.85 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7195,12 +7236,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8491a990-6203-4597-803e-20af2c74a4af")
-	)
-	(junction
-		(at 218.44 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "872ad424-7206-4a38-b08f-e32597d2f546")
 	)
 	(junction
 		(at 189.23 77.47)
@@ -7239,22 +7274,28 @@
 		(uuid "99ab0517-6e7f-418c-bb7a-619a8e128499")
 	)
 	(junction
+		(at 203.2 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a379ae0-d71e-46da-8051-e6f60c85bbd7")
+	)
+	(junction
 		(at 41.91 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a10919f0-8702-485e-a8bf-d7c59bcb975f")
 	)
 	(junction
+		(at 290.83 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8005f5e-9900-46c8-8d71-9fd0c8733017")
+	)
+	(junction
 		(at 58.42 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a964d306-fef7-4493-aeb0-a3ecff611ce2")
-	)
-	(junction
-		(at 218.44 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b04cffb4-138d-43a9-a135-ffc1116af487")
 	)
 	(junction
 		(at 309.88 148.59)
@@ -7309,6 +7350,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d68ecb1b-53a1-4eda-b181-f111a57b7661")
+	)
+	(junction
+		(at 208.28 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6b00cfb-e2f7-4f20-8669-d56e1b8870c8")
 	)
 	(junction
 		(at 132.08 43.18)
@@ -7369,6 +7416,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0fcb67a-0144-41cd-988c-b2e58f9f939c")
+	)
+	(junction
+		(at 367.03 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f127f809-e3bf-410d-90f0-cda22636f95d")
 	)
 	(junction
 		(at 200.66 162.56)
@@ -7436,6 +7489,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 59.69) (xy 360.68 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "001754d7-0145-4b6b-91f5-62b91b43dddb")
+	)
+	(wire
+		(pts
 			(xy 148.59 109.22) (xy 152.4 109.22)
 		)
 		(stroke
@@ -7443,6 +7506,16 @@
 			(type default)
 		)
 		(uuid "00c0f577-4340-48da-8a05-10e1f87f9cc5")
+	)
+	(wire
+		(pts
+			(xy 360.68 43.18) (xy 360.68 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01ef2ff9-adf1-4600-a2a7-240322a129f8")
 	)
 	(wire
 		(pts
@@ -7676,13 +7749,13 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 99.06) (xy 369.57 100.33)
+			(xy 370.84 111.76) (xy 370.84 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a3a45b7-e286-4887-af68-aefef0ce0426")
+		(uuid "19adb2b4-2d8d-4bd1-955a-8bd786f0fc3d")
 	)
 	(wire
 		(pts
@@ -7736,7 +7809,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 24.13) (xy 232.41 24.13)
+			(xy 212.09 24.13) (xy 232.41 24.13)
 		)
 		(stroke
 			(width 0)
@@ -7773,16 +7846,6 @@
 			(type default)
 		)
 		(uuid "23019514-c215-4140-a833-6b64758364ac")
-	)
-	(wire
-		(pts
-			(xy 369.57 100.33) (xy 372.11 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "237b3ea9-d738-4223-95cc-4a596e2b70e2")
 	)
 	(wire
 		(pts
@@ -7876,6 +7939,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 54.61) (xy 370.84 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296d42ce-17b4-442b-843d-df0f39f5f118")
+	)
+	(wire
+		(pts
 			(xy 113.03 33.02) (xy 113.03 36.83)
 		)
 		(stroke
@@ -7883,16 +7956,6 @@
 			(type default)
 		)
 		(uuid "29923f87-545d-46b8-81a8-7c5797ced8f5")
-	)
-	(wire
-		(pts
-			(xy 377.19 87.63) (xy 377.19 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29c0e782-81b8-4715-a14d-3107bfe12b92")
 	)
 	(wire
 		(pts
@@ -7936,6 +7999,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 106.68) (xy 283.21 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f10bc75-82b6-4c28-a050-44e7e56e9bb7")
+	)
+	(wire
+		(pts
 			(xy 248.92 175.26) (xy 242.57 175.26)
 		)
 		(stroke
@@ -7963,6 +8036,16 @@
 			(type default)
 		)
 		(uuid "30ee3ff9-ff0b-4c3c-829a-0ae73d13e936")
+	)
+	(wire
+		(pts
+			(xy 290.83 106.68) (xy 290.83 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "318d1ce0-75b6-4626-a56a-f1403a338a50")
 	)
 	(wire
 		(pts
@@ -8066,6 +8149,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 41.91) (xy 367.03 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f60e5e8-d256-4fb7-ac61-b9ef555ba4b7")
+	)
+	(wire
+		(pts
 			(xy 153.67 62.23) (xy 153.67 66.04)
 		)
 		(stroke
@@ -8166,16 +8259,6 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 54.61) (xy 370.84 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a95c2c4-e1ef-44b6-bd99-52b58a158148")
-	)
-	(wire
-		(pts
 			(xy 107.95 53.34) (xy 113.03 53.34)
 		)
 		(stroke
@@ -8216,6 +8299,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 104.14) (xy 295.91 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5171b257-817a-4690-8675-b22c8d756a04")
+	)
+	(wire
+		(pts
 			(xy 232.41 175.26) (xy 232.41 160.02)
 		)
 		(stroke
@@ -8223,6 +8316,16 @@
 			(type default)
 		)
 		(uuid "5175f73c-e76d-491f-8d37-fe9a6fb1e9f1")
+	)
+	(wire
+		(pts
+			(xy 363.22 57.15) (xy 370.84 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51a86e41-90f1-4a95-9d06-357dbd9f0327")
 	)
 	(wire
 		(pts
@@ -8273,6 +8376,16 @@
 			(type default)
 		)
 		(uuid "5596bacf-8ce7-4cf6-bb77-047928910dd8")
+	)
+	(wire
+		(pts
+			(xy 194.31 106.68) (xy 195.58 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f5e81f-866d-4aeb-8cf5-3e9229777497")
 	)
 	(wire
 		(pts
@@ -8353,16 +8466,6 @@
 			(type default)
 		)
 		(uuid "603d4f1c-46c5-4066-9cb1-fab85b0ce5bf")
-	)
-	(wire
-		(pts
-			(xy 218.44 24.13) (xy 218.44 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "605d1be2-73d5-4d45-8969-e3ff77dd6d6e")
 	)
 	(wire
 		(pts
@@ -8736,6 +8839,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 106.68) (xy 217.17 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e2d0cc6-0f88-4eaf-90ce-a6bc8f44d14b")
+	)
+	(wire
+		(pts
 			(xy 367.03 77.47) (xy 370.84 77.47)
 		)
 		(stroke
@@ -8743,16 +8856,6 @@
 			(type default)
 		)
 		(uuid "7f8578f0-ed55-43f6-a511-5ae26373d1a9")
-	)
-	(wire
-		(pts
-			(xy 377.19 87.63) (xy 370.84 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "812d35eb-58f5-4543-abaf-65566837401e")
 	)
 	(wire
 		(pts
@@ -8773,16 +8876,6 @@
 			(type default)
 		)
 		(uuid "829b234b-3d74-4882-bbe1-b988ba208b5f")
-	)
-	(wire
-		(pts
-			(xy 372.11 110.49) (xy 369.57 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82c6eee8-1530-4aa4-b3e0-2758f65f7976")
 	)
 	(wire
 		(pts
@@ -8976,6 +9069,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 50.8) (xy 360.68 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93975b7f-5981-405f-94f8-13abd6ec1946")
+	)
+	(wire
+		(pts
 			(xy 198.12 175.26) (xy 194.31 175.26)
 		)
 		(stroke
@@ -9026,6 +9129,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 107.95) (xy 194.31 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "982a4371-5681-4915-99b5-fdd73a0d1e3d")
+	)
+	(wire
+		(pts
 			(xy 50.8 30.48) (xy 54.61 30.48)
 		)
 		(stroke
@@ -9033,6 +9146,16 @@
 			(type default)
 		)
 		(uuid "98666e41-a0cf-4c98-bd3d-9ca102db738e")
+	)
+	(wire
+		(pts
+			(xy 370.84 110.49) (xy 372.11 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9905fb9d-ad8c-4df3-a7e9-65e8f150129a")
 	)
 	(wire
 		(pts
@@ -9053,6 +9176,16 @@
 			(type default)
 		)
 		(uuid "9974df2b-5ae9-4f33-a583-72e14771cc93")
+	)
+	(wire
+		(pts
+			(xy 208.28 104.14) (xy 208.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0e3fc4-e0be-49bf-a3c7-1098c42fad2b")
 	)
 	(wire
 		(pts
@@ -9196,6 +9329,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 106.68) (xy 304.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a275edde-7230-41b0-b476-cf987a493c80")
+	)
+	(wire
+		(pts
 			(xy 203.2 175.26) (xy 209.55 175.26)
 		)
 		(stroke
@@ -9203,16 +9346,6 @@
 			(type default)
 		)
 		(uuid "a2c0a231-8f1f-40ab-af04-c29ac500dd22")
-	)
-	(wire
-		(pts
-			(xy 369.57 110.49) (xy 369.57 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a33a88cc-8317-41fd-b35f-f931bb5c595a")
 	)
 	(wire
 		(pts
@@ -9226,6 +9359,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 104.14) (xy 203.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f31d7a-2225-4fa7-8e36-fe3b24952020")
+	)
+	(wire
+		(pts
 			(xy 137.16 53.34) (xy 148.59 53.34)
 		)
 		(stroke
@@ -9233,6 +9376,16 @@
 			(type default)
 		)
 		(uuid "a42e273e-400e-4d73-8478-6aac6567faed")
+	)
+	(wire
+		(pts
+			(xy 290.83 104.14) (xy 290.83 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5810f5b-2de1-4ce9-9bfd-4d2961fc574a")
 	)
 	(wire
 		(pts
@@ -9303,6 +9456,16 @@
 			(type default)
 		)
 		(uuid "a868a821-79d7-49d5-a325-032cf705f217")
+	)
+	(wire
+		(pts
+			(xy 280.67 107.95) (xy 280.67 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ae4ae5-698a-4f02-9f7d-02fdd1fd667b")
 	)
 	(wire
 		(pts
@@ -9406,13 +9569,23 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 43.18) (xy 229.87 43.18)
+			(xy 212.09 43.18) (xy 229.87 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b1b8a64c-a610-46ef-a615-12c40127fb40")
+	)
+	(wire
+		(pts
+			(xy 208.28 106.68) (xy 208.28 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b249c2b8-4589-4acd-a309-639568f6d713")
 	)
 	(wire
 		(pts
@@ -9453,16 +9626,6 @@
 			(type default)
 		)
 		(uuid "b441fb22-5914-4449-9f39-fa85d6eea28e")
-	)
-	(wire
-		(pts
-			(xy 218.44 36.83) (xy 218.44 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4c729c1-3d72-4640-9211-07839991becd")
 	)
 	(wire
 		(pts
@@ -9516,6 +9679,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 100.33) (xy 368.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9631086-46eb-4eb9-92c2-dbbd6cfb46f8")
+	)
+	(wire
+		(pts
 			(xy 73.66 128.27) (xy 73.66 140.97)
 		)
 		(stroke
@@ -9543,16 +9716,6 @@
 			(type default)
 		)
 		(uuid "b9fca886-87d1-4a3b-a344-7ca95adf168e")
-	)
-	(wire
-		(pts
-			(xy 212.09 43.18) (xy 218.44 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba774e32-b882-4acb-b1de-86bc891ba7a6")
 	)
 	(wire
 		(pts
@@ -9626,6 +9789,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 106.68) (xy 217.17 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c35c1955-e498-471d-97ee-dfa5aeb53fcc")
+	)
+	(wire
+		(pts
 			(xy 39.37 123.19) (xy 20.32 123.19)
 		)
 		(stroke
@@ -9673,6 +9846,16 @@
 			(type default)
 		)
 		(uuid "c55c1be0-9eab-472b-9506-a240437d710d")
+	)
+	(wire
+		(pts
+			(xy 360.68 59.69) (xy 370.84 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a65daa-3b26-4275-93fc-7fb5df475330")
 	)
 	(wire
 		(pts
@@ -9856,16 +10039,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 24.13) (xy 218.44 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d73927b4-793d-4595-8aaf-50ea464e0738")
-	)
-	(wire
-		(pts
 			(xy 115.57 53.34) (xy 127 53.34)
 		)
 		(stroke
@@ -9913,6 +10086,16 @@
 			(type default)
 		)
 		(uuid "daae83a0-5933-4b4c-b3f3-47b1382eef8c")
+	)
+	(wire
+		(pts
+			(xy 368.3 100.33) (xy 372.11 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2e369d-df99-40bb-996b-2dad0e328a77")
 	)
 	(wire
 		(pts
@@ -10016,6 +10199,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 106.68) (xy 304.8 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e108448d-5f36-41c8-a305-46dc2d75d30a")
+	)
+	(wire
+		(pts
 			(xy 41.91 48.26) (xy 54.61 48.26)
 		)
 		(stroke
@@ -10093,6 +10286,16 @@
 			(type default)
 		)
 		(uuid "e7c45f45-4ea9-46fa-98a0-6a65f22a10d7")
+	)
+	(wire
+		(pts
+			(xy 295.91 106.68) (xy 295.91 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e95147b8-0a75-4cd0-bc85-82b33a0cc19d")
 	)
 	(wire
 		(pts
@@ -10266,6 +10469,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 106.68) (xy 203.2 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c68faf-3893-49f8-ac55-55bbcfbc110d")
+	)
+	(wire
+		(pts
 			(xy 367.03 82.55) (xy 370.84 82.55)
 		)
 		(stroke
@@ -10384,8 +10597,19 @@
 		)
 		(uuid "ffbc8e2e-a666-4aad-a3bb-2077d26427ea")
 	)
+	(label "IO22"
+		(at 369.57 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 194 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "0262e5e8-82f5-424a-b56c-24b0a3a8f3a9")
+	)
 	(label "IO23"
-		(at 290.83 114.3 0)
+		(at 295.91 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10521,7 +10745,7 @@
 		(uuid "4b0d6ce1-b9d5-4b84-b540-5ef5a5eff62c")
 	)
 	(label "IO22"
-		(at 295.91 114.3 0)
+		(at 290.83 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10530,6 +10754,17 @@
 			(justify left bottom)
 		)
 		(uuid "501e52e9-cd71-4091-ab52-c82313145484")
+	)
+	(label "IO14"
+		(at 368.3 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 194 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "506b5f06-241b-4fdc-aeba-d56bd62e19e4")
 	)
 	(label "CC1"
 		(at 53.34 35.56 180)
@@ -10595,17 +10830,6 @@
 		)
 		(uuid "79395626-0a93-47e9-b5b2-4a5b91ac17f4")
 	)
-	(label "IO14"
-		(at 369.57 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 194 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "7a93f4c5-8555-41fb-be6a-c2ac3cd0f979")
-	)
 	(label "IO20"
 		(at 154.94 157.48 0)
 		(effects
@@ -10649,17 +10873,6 @@
 		)
 		(uuid "992ded6c-d623-4b55-861e-3ab5a1aa231a")
 	)
-	(label "IO22"
-		(at 367.03 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 194 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "994acd3c-eeb0-4b37-9beb-c858652b67a6")
-	)
 	(label "VBUS"
 		(at 50.8 27.94 0)
 		(effects
@@ -10682,7 +10895,7 @@
 		(uuid "a2fa4870-e269-4911-b033-0571053008de")
 	)
 	(label "IO20"
-		(at 208.28 114.3 0)
+		(at 208.28 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10800,13 +11013,13 @@
 		(uuid "f618ff9c-cf79-4fc1-a659-016e7b63d9c0")
 	)
 	(label "IO21"
-		(at 203.2 114.3 180)
+		(at 203.2 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 0 194 0 1)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "f8af59f8-e360-44cd-a504-5e99bd3a11e2")
 	)
@@ -10882,86 +11095,6 @@
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 377.19 88.9 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "074f2f06-5f84-475c-8b50-11512fa05ccb")
-		(property "Reference" "#PWR026"
-			(at 377.19 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 379.73 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 377.19 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 377.19 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 377.19 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "336f9282-69e2-4c96-aebe-9b3e503b5f20")
-		)
-		(instances
-			(project "zigbee_controller"
-				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11129,6 +11262,96 @@
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 287.02 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b68c373-48e9-40e8-a897-1fe84d552f19")
+		(property "Reference" "R22"
+			(at 287.274 101.854 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 287.274 104.394 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 287.02 108.458 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 287.02 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "yes"
+			(at 287.02 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "16d314cd-f53f-4177-a5da-bf1f5991370d")
+		)
+		(pin "1"
+			(uuid "b0aba688-8c09-4477-b5bf-99426ed75f68")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -11506,7 +11729,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22μF"
+		(property "Value" "47μF"
 			(at 206.756 30.226 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12537,113 +12760,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x07")
-		(at 375.92 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "2c7c0532-7d8b-4cc8-bb65-fed87a2469db")
-		(property "Reference" "J4"
-			(at 378.46 78.7399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x07"
-			(at 378.46 81.2799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B7B-XH-A_1x07_P2.50mm_Vertical"
-			(at 375.92 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 375.92 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "in_stock" "-"
-			(at 375.92 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b1a9a034-28f7-4be8-a0b7-94e46483c153")
-		)
-		(pin "1"
-			(uuid "4394e755-6831-45d7-abb1-cde6ce0491ff")
-		)
-		(pin "4"
-			(uuid "f224a4cc-7661-4605-b902-3d90bf93ed22")
-		)
-		(pin "3"
-			(uuid "b529ad54-6ec9-4116-a1b4-250b5da3fd83")
-		)
-		(pin "7"
-			(uuid "d2b4baf8-4b9d-45b4-a00b-ada7810cd6f5")
-		)
-		(pin "6"
-			(uuid "c13821d0-9b7a-40f8-a51d-65ea48828e54")
-		)
-		(pin "5"
-			(uuid "7da034a9-2cae-4ab7-b253-39ff916b3d2c")
-		)
-		(instances
-			(project "zigbee_controller"
-				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 367.03 40.64 0)
 		(mirror y)
@@ -13051,85 +13167,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 369.57 111.76 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3909faf2-9c95-4e98-b88b-89224e02cd80")
-		(property "Reference" "#PWR035"
-			(at 369.57 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 369.57 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 369.57 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 369.57 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 369.57 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "22571910-214f-4ea0-b6df-f1a2a0301f44")
-		)
-		(instances
-			(project "zigbee_controller"
-				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 300.99 160.02 0)
 		(unit 1)
 		(body_style 1)
@@ -13201,108 +13238,6 @@
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 377.19 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "3a4ca18a-36e0-49c1-884b-d42ba5c888c9")
-		(property "Reference" "J5"
-			(at 379.73 104.1399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x05"
-			(at 379.73 106.6799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
-			(at 377.19 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 377.19 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 377.19 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "in_stock" "yes"
-			(at 377.19 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "51ccc5fd-aaa3-47c6-8550-cfa745f3905b")
-		)
-		(pin "4"
-			(uuid "6f44a6d2-519b-407a-8f9c-b26a402e586b")
-		)
-		(pin "2"
-			(uuid "cd899df7-64a6-444c-bc85-2ae6177681a3")
-		)
-		(pin "5"
-			(uuid "ef3d5caa-faae-48c0-9ad0-832ab0c4db83")
-		)
-		(pin "3"
-			(uuid "2ee694d4-49b5-4fe3-bcb4-97e3e1ca009d")
-		)
-		(instances
-			(project "zigbee_controller"
-				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -13659,111 +13594,6 @@
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 375.92 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "400b2508-29c9-49b9-bfe6-843ec7ea80ba")
-		(property "Reference" "J3"
-			(at 378.46 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x06"
-			(at 378.46 49.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
-			(at 375.92 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 375.92 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "in_stock" "yes"
-			(at 375.92 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d07e688f-9fe0-41a5-9e4c-e43e836d915c")
-		)
-		(pin "2"
-			(uuid "9ade5eb8-9bd4-44af-975a-a839637100b5")
-		)
-		(pin "3"
-			(uuid "181f5f5c-5615-4b89-a531-fa9b0004a68a")
-		)
-		(pin "4"
-			(uuid "c62f3891-4835-4c91-ba07-4abc197a3aa2")
-		)
-		(pin "6"
-			(uuid "079c134a-e265-4a12-a445-50973920b05a")
-		)
-		(pin "5"
-			(uuid "5f2fca53-a617-4fab-b3cd-acc404f643a9")
-		)
-		(instances
-			(project "zigbee_controller"
-				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -14826,6 +14656,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 217.17 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "50e25b25-0f0b-4ff4-9fdc-20c734ba7952")
+		(property "Reference" "#PWR050"
+			(at 217.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 112.776 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "695a493f-a927-4c05-ae3c-784499565468")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+4V")
 		(at 39.37 20.32 0)
 		(unit 1)
@@ -15399,6 +15306,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 194.31 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5c700cf4-1b12-4522-b05f-f9a1d8adc212")
+		(property "Reference" "#PWR044"
+			(at 194.31 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 112.776 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c22abd2-ef1d-4da5-9ab2-7a9fc949ada7")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 300.99 173.99 0)
 		(mirror x)
@@ -15653,6 +15637,86 @@
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 367.03 85.09 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61d85265-e02f-43fa-b5ac-cceab23e599b")
+		(property "Reference" "#PWR026"
+			(at 367.03 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 369.57 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 367.03 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 367.03 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17b7aff0-78ad-431d-a8f6-3b1f2c78a1d4")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -15916,6 +15980,83 @@
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 280.67 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6644c099-137a-4e37-8633-a7e53ea3ec67")
+		(property "Reference" "#PWR052"
+			(at 280.67 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 280.67 112.776 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 280.67 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f95b34f4-505b-405b-bb9c-49a4d600a9bf")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -17200,6 +17341,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 360.68 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "79a61d83-58fb-46ba-b09a-973523f18b1d")
+		(property "Reference" "C12"
+			(at 353.06 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 353.06 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 361.6452 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 360.68 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "90f924d3-5510-48e2-8219-4638154275e1")
+		)
+		(pin "2"
+			(uuid "ab52a965-b93f-4a3e-ab76-c688c4f8d004")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky_Dual_CommonCathode_AKA_Parallel")
 		(at 326.39 168.91 90)
 		(unit 1)
@@ -17456,6 +17678,96 @@
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 299.72 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e6e91de-5455-4228-9fac-97e66e81683f")
+		(property "Reference" "R23"
+			(at 305.054 101.346 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 305.054 103.886 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 299.72 108.458 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 299.72 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "yes"
+			(at 299.72 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7574c7d6-e9eb-4482-9b6b-0ec978f377f7")
+		)
+		(pin "1"
+			(uuid "22ea36b0-9916-4e12-ac29-d9c4529aa440")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -18321,6 +18633,96 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 212.09 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9169bb71-cb30-4d4c-92bc-f5011587c718")
+		(property "Reference" "R20"
+			(at 218.694 101.092 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 218.694 103.632 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 212.09 108.458 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 212.09 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "yes"
+			(at 212.09 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f3633c7e-5f68-4236-892d-185cae8b4ed4")
+		)
+		(pin "1"
+			(uuid "399957ac-f41f-4487-a92a-048c7d1928c6")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 271.78 143.51 180)
 		(unit 1)
 		(body_style 1)
@@ -18842,7 +19244,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 367.03 54.61 0)
+		(at 360.68 60.96 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -18854,7 +19256,7 @@
 		(fields_autoplaced yes)
 		(uuid "9aeac61f-462b-4c93-a53e-04b73dbf11e3")
 		(property "Reference" "#PWR027"
-			(at 367.03 60.96 0)
+			(at 360.68 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18865,7 +19267,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 367.03 59.69 0)
+			(at 360.68 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18875,7 +19277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 367.03 54.61 0)
+			(at 360.68 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18886,7 +19288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 367.03 54.61 0)
+			(at 360.68 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18897,7 +19299,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 367.03 54.61 0)
+			(at 360.68 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18914,6 +19316,85 @@
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 370.84 111.76 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c130ffb-790d-47d7-9913-259112e50b84")
+		(property "Reference" "#PWR053"
+			(at 370.84 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 370.84 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 370.84 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 370.84 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 370.84 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28e1d730-0cf6-44f4-8c45-a223357814cb")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -19438,6 +19919,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 363.22 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a65b23fc-ff7a-49f2-b68a-b9c1f5ea23da")
+		(property "Reference" "#PWR037"
+			(at 363.22 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 365.76 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 363.22 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2700d58f-3a43-4226-8a00-50cc7f0bd29b")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 219.71 149.86 90)
 		(unit 1)
@@ -19691,85 +20251,6 @@
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 369.57 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6f24041-1d8b-4f3c-a0f2-20fc508b4f7c")
-		(property "Reference" "#PWR037"
-			(at 369.57 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 372.11 97.7899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 369.57 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 369.57 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 369.57 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "20dcfa0a-18b9-49e2-bc93-cb3662a24a04")
-		)
-		(instances
-			(project "zigbee_controller"
-				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -20116,6 +20597,200 @@
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 375.92 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfb22999-99a6-4aa6-8208-a84ef172fef6")
+		(property "Reference" "J3"
+			(at 378.46 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 378.46 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical"
+			(at 375.92 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 375.92 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bccc4c1b-7e5c-4da3-9a13-70d5e37a2d26")
+		)
+		(pin "3"
+			(uuid "13f8cf6c-ae3a-44cb-9179-a2ac5caff933")
+		)
+		(pin "4"
+			(uuid "88d51155-2ff0-48e9-b9cf-54a11a7a64fc")
+		)
+		(pin "1"
+			(uuid "1dcefb29-034c-4b05-959d-2acb82b53b7a")
+		)
+		(pin "5"
+			(uuid "e5e57be7-a624-4b0c-822c-35c21c1056b3")
+		)
+		(pin "7"
+			(uuid "d6a841d7-5535-46da-87c6-d985e7ced9b0")
+		)
+		(pin "8"
+			(uuid "b0baefe4-02a1-4422-9458-13852916d12e")
+		)
+		(pin "6"
+			(uuid "6d749936-1284-4706-91e6-326c9f1742cc")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 375.92 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c014840d-8795-4c9c-aeb8-47a7a4f1cca3")
+		(property "Reference" "J4"
+			(at 378.46 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 378.46 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
+			(at 375.92 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 375.92 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "eb4381ac-6906-4190-bcc0-50397a15ad96")
+		)
+		(pin "1"
+			(uuid "d77f5a39-7b23-4b71-830c-cc0bf67228ae")
+		)
+		(pin "3"
+			(uuid "6cc6a2c1-8713-42e9-93a0-717fe314b3c9")
+		)
+		(pin "2"
+			(uuid "b5559076-1e5f-4347-a429-bb5e28ba5972")
+		)
+		(pin "4"
+			(uuid "4afe7f76-e05e-4b85-b06f-98acb19c5f75")
+		)
+		(pin "5"
+			(uuid "f5872d6d-e6b6-45ea-819d-a8c21226b768")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -20567,6 +21242,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 199.39 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cfd7d922-606a-4a6d-9f3d-619e208583f6")
+		(property "Reference" "R19"
+			(at 199.39 101.092 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 199.39 103.632 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 199.39 108.458 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 199.39 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "in_stock" "yes"
+			(at 199.39 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cd36c103-a9b0-48cb-859d-bf0ab66b298f")
+		)
+		(pin "1"
+			(uuid "37c21d4f-707f-49e0-9249-52da5be9fe21")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 304.8 128.27 0)
 		(unit 1)
@@ -20924,6 +21689,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 368.3 99.06 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9748a9c-8661-4183-abd5-90f051c67688")
+		(property "Reference" "#PWR035"
+			(at 368.3 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 370.84 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 368.3 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1145654d-1921-49e9-ab29-004c0005cea3")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 236.22 35.56 0)
 		(unit 1)
@@ -21103,6 +21948,83 @@
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 304.8 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dea00293-b372-4e0d-b257-179fbf2d51aa")
+		(property "Reference" "#PWR051"
+			(at 304.8 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 304.8 112.776 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 304.8 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "353b4d84-63f8-47e7-90de-ca30b36629e3")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -21875,98 +22797,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 218.44 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "eeca4bd2-dd1e-436d-b4d5-a894c58b678e")
-		(property "Reference" "C10"
-			(at 220.726 28.194 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22μF"
-			(at 220.726 30.734 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 219.4052 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 218.44 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "in_stock" "yes"
-			(at 218.44 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2fa199b9-6abb-4152-ab6f-d53c20a7ce3f")
-		)
-		(pin "1"
-			(uuid "53f6bda8-33ff-4e83-8da3-557413c1c6ad")
-		)
-		(instances
-			(project "zigbee_controller"
-				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 113.03 33.02 0)
 		(unit 1)
@@ -22283,6 +23113,97 @@
 			(project "zigbee_controller"
 				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 377.19 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9fa2edb-0bab-4dc1-9dd8-6f9b5597bd77")
+		(property "Reference" "J2"
+			(at 379.73 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 379.73 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+			(at 377.19 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 377.19 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6df75340-6d76-4da6-86dd-5cdde6d9c366")
+		)
+		(pin "5"
+			(uuid "03e59a2b-8801-448d-a187-1b70e9f50e1d")
+		)
+		(pin "4"
+			(uuid "f0417a38-e59d-4ad2-9188-720e48edaaf3")
+		)
+		(pin "3"
+			(uuid "5b364ae9-c4c8-4477-931d-b0733ac35456")
+		)
+		(pin "2"
+			(uuid "a8e2f63f-f7df-4ef3-a05e-dd075a1421bd")
+		)
+		(instances
+			(project "zigbee_controller"
+				(path "/17b9f9ac-224d-422f-9c40-54a6770d01d0"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -22757,126 +23678,12 @@
 		)
 	)
 	(group ""
-		(uuid "6eda34fd-fc5b-4464-8e1a-3d9537b38e95")
-		(members "25555fef-246d-420d-91d6-30f7d6614a2b" "2d5528b1-c3ac-4b41-b764-fd50177ec77b"
-			"400b2508-29c9-49b9-bfe6-843ec7ea80ba" "4a95c2c4-e1ef-44b6-bd99-52b58a158148"
-			"6595c138-3aa4-4879-9062-dfd7fe4628e1" "7304a380-3239-48c9-8d47-eefcd0d1278d"
-			"7b4b7e7c-2d39-41cf-82af-b7c9f74c5938" "92561568-dd86-4b70-b3ed-9049815b760f"
-			"9aeac61f-462b-4c93-a53e-04b73dbf11e3" "a2fa4870-e269-4911-b033-0571053008de"
-			"b3d96a9a-2ec9-45d8-9341-9ca9cbf660ff" "b93991b4-75da-4f8d-95ad-3bf08b67765d"
-			"d4129846-648c-45d9-8c0c-5fd77f4444ae" "f28462c9-f401-4783-b9a2-2b4a1dde6628"
-		)
-	)
-	(group ""
-		(uuid "7e3e5cb7-f554-4ce4-bbc0-5297c2422426")
-		(members "1a3a45b7-e286-4887-af68-aefef0ce0426" "237b3ea9-d738-4223-95cc-4a596e2b70e2"
-			"3909faf2-9c95-4e98-b88b-89224e02cd80" "3a4ca18a-36e0-49c1-884b-d42ba5c888c9"
-			"74f00252-e4ce-4772-8ec5-a571e09535ee" "7a93f4c5-8555-41fb-be6a-c2ac3cd0f979"
-			"82c6eee8-1530-4aa4-b3e0-2758f65f7976" "a33a88cc-8317-41fd-b35f-f931bb5c595a"
-			"b6f24041-1d8b-4f3c-a0f2-20fc508b4f7c" "cb6631ac-37e4-46d6-a7b4-230295c7fabc"
-			"e7d46fc9-ddee-4ac4-a170-b1cdfa3ddc33" "f3174ebf-5962-46f2-8218-0034985d06a7"
-		)
-	)
-	(group ""
 		(uuid "93b3c736-f94f-4d11-8f2f-c907d77cec8d")
 		(members "16b7ffb8-614e-47f3-94ed-63de18540853" "1e8709f2-2d50-4330-a0d3-6cd1d280860f"
 			"2475ad0e-8fcb-46e2-8b2b-bf4cc111c19e" "4323ddec-fcbb-414d-bc60-a374826c0b22"
 			"62a621e2-196e-49fe-a2dc-04003a3a8868" "9c18e026-4721-47aa-be5b-17152b930499"
 			"9f5c8a91-6892-4281-8840-ab0a76e20048" "a820b9f8-922b-4dce-a806-0db49862a384"
 			"ffb95fe5-0330-4aba-9656-be73aafe31a0"
-		)
-	)
-	(group ""
-		(uuid "b2c9aac5-2540-4e70-8954-1ab36c1c0c47")
-		(members "074f2f06-5f84-475c-8b50-11512fa05ccb" "29c0e782-81b8-4715-a14d-3107bfe12b92"
-			"2c7c0532-7d8b-4cc8-bb65-fed87a2469db" "47b69ca3-fb57-4ef3-9a33-005f17efcf5e"
-			"67df4eef-90ea-43b7-8c24-9264aa04ffdd" "7f8578f0-ed55-43f6-a511-5ae26373d1a9"
-			"812d35eb-58f5-4543-abaf-65566837401e" "8d815489-75fd-401a-9856-5dc73dad89c7"
-			"994acd3c-eeb0-4b37-9beb-c858652b67a6" "b6c3087c-3fde-4de8-a6d9-00485f64e6c7"
-			"d00420c2-5a5c-47a8-8ecb-06ecf4e5e6d3" "dcfd3770-ad15-4b73-9f82-75e6fc34de5e"
-			"df336a88-69e8-450b-8e22-4d873fe1c001" "eedacfd0-474e-44ad-81cb-d73d3e380854"
-			"eeedd3de-138d-4511-a947-9defff7ffb97" "f6db0b4c-0509-46e1-b0b1-138815d8900f"
-		)
-	)
-	(group ""
-		(uuid "be429148-4b29-4350-a7eb-430d87f8c877")
-		(members "04f56ddb-31d7-49f8-8e7b-31258f078174" "0652dc69-6021-430c-976c-f57ea4ead006"
-			"0822af0d-0ac7-4ea8-ac6e-d95b43f16151" "09e9bf45-a0fb-4a3e-8fec-08853aa30634"
-			"0b4458ff-91f2-48d3-99c0-c033232a4e11" "0e5a2473-4e26-4b3e-9310-3d540b142b71"
-			"10b682c4-7d1e-4838-a8ce-7a8abede4602" "14bbf06e-53e0-4cee-93ab-6be18a3e3db4"
-			"1998802f-3116-4a0a-bba6-70472b2c624c" "21ee1cac-a96c-4494-9c8b-428f380cd88c"
-			"23019514-c215-4140-a833-6b64758364ac" "29ca9ab3-d61e-400a-8fcb-cd64d093f3b0"
-			"30ee3ff9-ff0b-4c3c-829a-0ae73d13e936" "38c22d35-a840-4ee6-a9af-6ddbacf3ff37"
-			"3982ed98-43cc-4e6f-92b8-a1dc03537a51" "3c2efa93-689d-4dde-9968-9aa3ec2f9ab0"
-			"3c7b85db-e128-4327-8a4c-9eb6bfe898c3" "3e6804d3-13de-4738-841c-f9841873dbd5"
-			"44a0fc43-9250-4373-8f6c-7c319369cf78" "46936c0b-3df0-4ed1-8f25-b2a705d9fa6d"
-			"46f764ee-84c3-4e7e-8fa4-197304cf4c6b" "4cffabc4-8304-4c50-91ef-e0d3898577f6"
-			"4e5ed861-fd7e-4c7a-a683-d18bad1e4d9f" "501e52e9-cd71-4091-ab52-c82313145484"
-			"53e086e1-66ca-4a04-bb82-a8643e9347c5" "54fb8f97-e371-4683-a774-55749c0ea301"
-			"55c80f01-9b0f-45df-a84f-eb0a348634ec" "58c30a7e-c0e5-4b75-a3b7-836b3e6cbdd3"
-			"59fc9e59-e8cd-4dc9-bc01-e4ffe7fbcafc" "5a6c5162-62aa-4d02-8084-703a9730e055"
-			"5a821fd7-4349-4075-a68f-94111d2afbec" "5d8e40b5-2eaa-438f-9973-f936d7ded2db"
-			"5f3c8123-b8f5-4415-b613-d7842e0e87bd" "60384fea-855a-424d-a75c-b4de787d8c6a"
-			"68c7099f-cd04-4d95-8719-53f0b0ed37e1" "6a15d99c-48fd-46a5-a708-68f4834031d4"
-			"6e8bb91a-c04f-4fb5-ad56-7e61e2fb7bdb" "77210e02-0d37-4350-9476-0f7c306f2f8d"
-			"79f45b5a-bfdb-4137-a945-00d0401288bb" "7ce78f89-efa5-4b7b-90ff-2cf733ede3a7"
-			"7dafdac9-6f21-4487-abd2-6e1d61997e88" "80e5604a-029d-46c1-9258-f4639fe14041"
-			"83ebccc2-7132-4393-9da1-655cdc8b4d4c" "84084492-fdd5-463f-891e-8a4372eea1ac"
-			"850fddfb-af9a-421d-af56-52ed77643fbc" "8ac90547-e8fc-43af-8f1a-9b5a429b131e"
-			"906ddfd2-3eb4-4e6d-9415-579d31a477a7" "92dcb816-1f9d-4a3d-823e-10b1f2d49737"
-			"94362034-8d5a-44ba-a620-d8131f4dc5b4" "9ad1355a-0d21-49ca-98fd-124bb06cf588"
-			"9c376843-f28d-4f7c-9993-0958e7a9ed54" "9ea02664-bfd5-42a0-9465-bae8a6c629de"
-			"a8380e22-e9a0-4f4b-8dae-700a44c045d3" "b3c4a1b6-f565-4b9b-b20e-4a1f0198ae55"
-			"b4e2887b-52dd-48ee-9860-843a65d59322" "b5f9882b-20e8-4cf7-b0dd-acebdec699ee"
-			"b928fd46-5da8-4305-83e6-92e84d0f6663" "cff6de4f-6871-4777-9e5a-d336f8a4cd35"
-			"d34b885c-7857-4d8d-9d1d-195a6e02778d" "e0f11c1f-05ca-4f25-ae1c-985b4e195b29"
-			"e2670a5d-fe84-454b-9402-e5ee350b3adc" "e289eda0-ce90-4c6a-95bb-2bd9b1d35bb6"
-			"ea55b05a-52ec-4867-b153-2358a90a5418" "ea93d002-f295-4ef0-b925-2513133ab849"
-			"ecfcebab-0d9a-4490-8391-d940e72e9659" "ed011011-1678-4394-ac9e-05335e9644a9"
-			"ef2d5984-ab20-463a-bae0-f68a4c7e7b31" "f4134143-7e43-48da-b085-f9fffc456a6a"
-			"f415d28b-4a3c-46b9-afea-f1a20d2e1fad" "f9a6cab9-4eaf-4af7-a0c8-55ddaf77d29e"
-			"fafdba00-f993-44de-afbf-1c9a3f1a3201" "fee251a5-3622-4174-983c-f29ff611a2eb"
-		)
-	)
-	(group ""
-		(uuid "da2ce4f1-0aa1-4f70-986f-68345a0c2eea")
-		(members "03c59502-7d7f-42d2-a2cb-d48c45c73bb6" "050ceb60-7bcd-4442-be72-0bff36ac8307"
-			"0cbbeece-c4d3-45fc-9ff0-6a5e88b8c19d" "1374c3d4-a939-4112-b83d-0ea416277f84"
-			"15b1f60a-3425-4acc-945a-a133d5f4b0a0" "1658122e-04f3-4a73-9b0e-4f4011e53597"
-			"1b07f79a-c0b8-4a0b-8132-0d44c74d83b6" "1c3db13e-57d5-46f4-a7c1-2b657a3f459d"
-			"1c7aed4c-ce21-48f6-8469-4e2ab89c9411" "2150df31-e4fb-43ff-bb18-e9a388721db0"
-			"217c353a-f518-4564-b301-e4a676560920" "24a374d1-52ee-4346-979d-f654afaee06d"
-			"27a32617-3f05-48f0-afd7-c88a77a28448" "28887d2e-3f94-4827-ab81-c122b6b32546"
-			"2c12128e-458d-415d-9f39-482ba7d3654c" "30058ee0-6f2c-4ff3-ac5e-5ef30808e08f"
-			"36a5520f-f168-4dd5-824e-5a0eb24bf9fa" "3813132e-ad07-47c5-8042-6827e013ba79"
-			"3bfe208d-de89-4cbc-b27d-eb0791f027f8" "3f18ff8c-9153-45d6-9a6b-8868ae889788"
-			"43ec5029-f27e-4c39-b0c1-cb16fb43b005" "5175f73c-e76d-491f-8d37-fe9a6fb1e9f1"
-			"5bac5e3a-b4d2-4f5e-bd08-c4732259d054" "5c56566f-32d3-4fbf-9c25-f51d287294f0"
-			"5ebab49b-4106-4ffd-84bc-ac9f3fc879fa" "63230681-cab3-4b9c-a174-492af401f14c"
-			"677cd471-41b0-4a97-8c4f-9daeaff91b92" "6caf1a45-22d0-44fa-9123-48b8bd10cf02"
-			"6e806d42-f492-48de-896f-32f5a2dc52d8" "6fbfb09d-3d76-43b9-82a6-57cf265d6767"
-			"739c659f-5aab-4393-93cb-bf1da90b633c" "7424421a-7dbc-42f9-83b4-c89e4825a4c9"
-			"7600484f-bc13-4288-a45a-9b9861d004a5" "76bd9a59-785b-4841-8789-a66677cc3fad"
-			"77e8518c-bd38-493b-b2ac-2cbb05990d67" "785cb7e6-91e1-454b-8bd2-fb10dc6512ec"
-			"789c737b-7736-425f-867e-d4ceb548fd59" "7ec4279d-f070-4c77-b7fe-eeb12292a98b"
-			"8b9c128e-3906-4bcb-bb13-a309eb849a46" "8c45d700-af30-45b4-8cc9-82847134a88b"
-			"8d76a3ba-3c47-4364-8f66-c31cf9d59e6d" "8e9b6df2-a409-4482-96ef-5bd5024e177e"
-			"94179b53-2c99-44b0-978a-0557a53bdb15" "949aa0bf-39ac-4e68-91e5-8b729c7b3d69"
-			"9c60e65d-0557-4f4f-abe5-69ad8bd13057" "9d110d2a-7ebc-44d6-a2a6-0d653a51cca6"
-			"a2c0a231-8f1f-40ab-af04-c29ac500dd22" "a6f21944-12dc-4159-bb96-2609a6ca34ea"
-			"a837d35d-dbd4-4ebc-88b2-e6f5eb046adb" "ac4985be-1c01-4b50-9ba9-0d76ee3cbe44"
-			"aff13438-1895-415a-881b-9ca31080a0bf" "b1293b73-3b1e-4d3a-bc42-9e10e7da0fc5"
-			"b633e89c-43ae-42f1-8942-0dc5605067eb" "b9e54d37-d889-47b9-b797-0e4c5015ff91"
-			"bc9b4094-e4af-4961-b9fb-1a4e0f0a9cab" "bd644029-0e3b-4b0a-ae70-e62ce013e542"
-			"c4e6f0f0-a1be-4f50-a1b3-c2f61c877a31" "c5e49b01-d0da-4b4c-b5bc-8a869a983b5c"
-			"c6ed1f99-6d71-4aaa-9778-fde5c6f533a3" "c77c53ad-515d-4db0-af31-a992077c5080"
-			"c85d08d4-ec77-4eb0-9f43-4d23bfee8d70" "c9393486-0c14-4e6d-be42-46b6ecfe4d8a"
-			"c9a544d8-4656-432f-ad68-8f7a021e2c2e" "d69c275e-8e21-48da-89b5-64a38e79e0d6"
-			"daae83a0-5933-4b4c-b3f3-47b1382eef8c" "dace8660-51a1-4186-b521-eb1745b17b53"
-			"db9718dc-6f1f-4bc4-b0cd-9008b2ebf381" "dbdb4b84-0677-44ff-9ebf-186c1e91de7c"
-			"ecbf241d-dd33-46b0-9f7a-3d3dc60c7cdc" "f1b33180-45cf-48cc-9408-0d3552b04e04"
-			"f833b756-c35e-4a81-8bff-10eb0089faa6" "f8af59f8-e360-44cd-a504-5e99bd3a11e2"
-			"fa03093b-aeac-4f92-ad33-a3f972bff713" "faa3ad2a-2931-4ca4-a0e6-a5dc4da90a26"
 		)
 	)
 	(group ""
